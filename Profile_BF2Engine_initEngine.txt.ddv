@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root schema="BF2Profiler 1.0">
+<Columns>
+<Column name="Counter" attribute="name" align="Left"/>
+<Column name="Id" attribute="id" align="Right"/>
+<Column name="PageFaults" attribute="pageFaults" align="Right"/>
+<Column name="Time per Tick (ms)" attribute="timePerTick" align="Right"/>
+<Column name="Calls per Tick" attribute="callsPerTick" align="Right"/>
+<Column name="Time per Frame" attribute="timePerFrame" align="Right"/>
+<Column name="Calls per Frame" attribute="callsPerFrame" align="Right"/>
+<Column name="Average time per Call" attribute="timePerCall" align="Right"/>
+<Column name="Min Time" attribute="minTime" align="Right"/>
+<Column name="Max Time" attribute="maxTime" align="Right"/>
+<Column name="Guard Time" attribute="guardTime" align="Right"/>
+<Column name="Alloc Memory" attribute="allocatedMemory" align="Right"/>
+<Column name="Alloc Memory Increase" attribute="allocatedMemoryIncrease" align="Right"/>
+<Column name="Alloc Calls" attribute="allocationCalls" align="Right"/>
+<Column name="Alloc Call Inc" attribute="allocationCallIncrease" align="Right"/>
+<Column name="Local Percent" attribute="localPercent" align="Right"/>
+<Column name="Global Percent" attribute="globalPercent" align="Right"/>
+</Columns>
+<Nodes>
+<Node name="Summary" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+<Node name="Time spent per complete scope profiler start/stop (microsecs)" id="0.0000" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Time spent per profiler start/stop (microsecs)" id="0.6011" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="------------------" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="PageFaults total: " id="94687.0000" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="PageFaults/Sec:   " id="8212.4180" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Frames:           " id="1.0000" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="NumTicksPerFrame: " id="0.0000" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Seconds:          " id="11.5297" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="------------------" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Average fps:      " id="0.0867" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Min     fps:      " id="0.0867" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Max     fps:      " id="0.6538" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="------------------" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Average ms/frame: " id="11529.7344" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Min     ms/frame: " id="1529.5476" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Max     ms/frame: " id="11529.7344" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="------------------" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="- BF2Engine -" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Command line" id="+fullscreen 0 +szx 1280 +szy 960 +restart 1 +modPath mods/norfor +ignoreAsserts 1" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="- Sound -" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Initialized" id="Yes" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Provider" id="Software Audio + EAX (DirectSound)" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="MaxVoices" id="36" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Quality" id="0" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="- BSP -" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Returned Faces:" id="0.000000, [0.000000, 0.000000]" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Visited Nodes:" id="0.000000, [0.000000, 0.000000]" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Ray Visited Nodes:" id="0.000000, [0.000000, 0.000000]" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Ray Tested Faces:" id="0.000000, [0.000000, 0.000000]" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Mem: Total:" id="0.000000, [0.000000, 0.000000]" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="BspNode::Face Mem: Total:" id="0.000000, [0.000000, 0.000000]" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="- BF2Render -" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Terrain" id="High" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Geometry" id="High" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Lighting" id="Medium" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="DynamicLighting" id="High" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="DynamicShadows" id="High" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Effects" id="High" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="Texture" id="High" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+<Node name="TextureFiltering" id="High" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+</Node>
+</Node>
+<Node name="Profile per Frame" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+<Node name="Global Timer" id="0" pageFaults="94687" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="11529.7344" callsPerFrame="1.00" timePerCall="11529.7344" minTime="1529.5476" maxTime="11529.7344" guardTime="0.0000" allocatedMemory="58044848.0" allocatedMemoryIncrease="48017116.0" allocationCalls="132459.0" allocationCallIncrease="87943.0" localPercent="0.00" globalPercent="100.00" >
+<Node name="initRenderer" id="18" pageFaults="79217" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="10917.1729" callsPerFrame="1.00" timePerCall="10917.1729" minTime="1529.5476" maxTime="10917.1729" guardTime="0.0000" allocatedMemory="12542876.0" allocatedMemoryIncrease="4358279.0" allocationCalls="86064.0" allocationCallIncrease="51578.0" localPercent="94.69" globalPercent="94.69" >
+<Node name="initHudManager" id="42" pageFaults="4285" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4843.3672" callsPerFrame="1.00" timePerCall="4843.3672" minTime="1529.5476" maxTime="4843.3672" guardTime="0.0000" allocatedMemory="4917325.0" allocatedMemoryIncrease="2167383.0" allocationCalls="48680.0" allocationCallIncrease="46112.0" localPercent="44.36" globalPercent="42.01" >
+<Node name="OldConsole_run" id="7" pageFaults="1988" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4790.3325" callsPerFrame="3.00" timePerCall="1596.7775" minTime="0.2564" maxTime="1596.7773" guardTime="0.0000" allocatedMemory="4556722.0" allocatedMemoryIncrease="1969603.0" allocationCalls="45596.0" allocationCallIncrease="43447.0" localPercent="98.90" globalPercent="41.55" >
+<Node name="OldConsole_handleCommand" id="10" pageFaults="1988" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4789.6777" callsPerFrame="47.00" timePerCall="101.9080" minTime="0.0037" maxTime="154.3536" guardTime="0.0000" allocatedMemory="4540274.0" allocatedMemoryIncrease="1960635.0" allocationCalls="45553.0" allocationCallIncrease="43442.0" localPercent="99.99" globalPercent="41.54" >
+<Node name="OldConsole_run" id="7" pageFaults="1960" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4780.7993" callsPerFrame="13.00" timePerCall="367.7538" minTime="1.6761" maxTime="367.7538" guardTime="0.0000" allocatedMemory="4358938.0" allocatedMemoryIncrease="1937739.0" allocationCalls="45209.0" allocationCallIncrease="43261.0" localPercent="99.81" globalPercent="41.46" >
+<Node name="OldConsole_handleCommand" id="10" pageFaults="1912" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4774.4907" callsPerFrame="724.00" timePerCall="6.5946" minTime="0.0028" maxTime="12.3237" guardTime="0.0000" allocatedMemory="4086922.0" allocatedMemoryIncrease="1924623.0" allocationCalls="45013.0" allocationCallIncrease="43253.0" localPercent="99.87" globalPercent="41.41" >
+<Node name="OldConsole_run" id="7" pageFaults="1618" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4698.4282" callsPerFrame="72.00" timePerCall="65.2560" minTime="0.2419" maxTime="60.7222" guardTime="0.0000" allocatedMemory="3477729.0" allocatedMemoryIncrease="1636770.0" allocationCalls="37836.0" allocationCallIncrease="36221.0" localPercent="98.41" globalPercent="40.75" >
+<Node name="OldConsole_handleCommand" id="10" pageFaults="1202" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4644.6191" callsPerFrame="7604.00" timePerCall="0.6108" minTime="0.0025" maxTime="1.1226" guardTime="0.0000" allocatedMemory="2461912.0" allocatedMemoryIncrease="1628042.0" allocationCalls="36828.0" allocationCallIncrease="36216.0" localPercent="98.85" globalPercent="40.28" >
+<Node name="ZipArchive_open" id="22" pageFaults="71" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4.0094" callsPerFrame="37.00" timePerCall="0.1084" minTime="0.0028" maxTime="0.1032" guardTime="0.0000" allocatedMemory="486864.0" allocatedMemoryIncrease="486072.0" allocationCalls="98.0" allocationCallIncrease="65.0" localPercent="0.09" globalPercent="0.03" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.1552" callsPerFrame="32.00" timePerCall="0.0673" minTime="0.0070" maxTime="0.0660" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="53.75" globalPercent="0.02" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="53.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="3.7495" callsPerFrame="99.00" timePerCall="0.0379" minTime="0.0152" maxTime="0.0399" guardTime="0.0000" allocatedMemory="6414.0" allocatedMemoryIncrease="0.0" allocationCalls="99.0" allocationCallIncrease="0.0" localPercent="0.08" globalPercent="0.03" >
+</Node>
+<Node name="Win32FileSystem_getFileInfo" id="43" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.7948" callsPerFrame="48.00" timePerCall="0.0582" minTime="0.0361" maxTime="0.0612" guardTime="0.0000" allocatedMemory="4604.0" allocatedMemoryIncrease="2172.0" allocationCalls="65.0" allocationCallIncrease="1.0" localPercent="0.06" globalPercent="0.02" >
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.7119" callsPerFrame="48.00" timePerCall="0.0565" minTime="0.0342" maxTime="0.0595" guardTime="0.0000" allocatedMemory="2432.0" allocatedMemoryIncrease="0.0" allocationCalls="64.0" allocationCallIncrease="0.0" localPercent="97.03" globalPercent="0.02" >
+</Node>
+<Node name="Win32FileSystem_getFileInfo summary" id="43" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="97.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_write" id="44" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.6535" callsPerFrame="32.00" timePerCall="0.0829" minTime="0.0061" maxTime="0.0854" guardTime="0.0000" allocatedMemory="30780.0" allocatedMemoryIncrease="0.0" allocationCalls="32.0" allocationCallIncrease="0.0" localPercent="0.06" globalPercent="0.02" >
+</Node>
+<Node name="Win32FileSystem_addListener" id="26" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.4964" callsPerFrame="17.00" timePerCall="0.0292" minTime="0.0223" maxTime="0.0292" guardTime="0.0000" allocatedMemory="1088.0" allocatedMemoryIncrease="0.0" allocationCalls="17.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.00" >
+</Node>
+<Node name="SafeDisc_Decode" id="45" pageFaults="9" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1575" callsPerFrame="408.00" timePerCall="0.0004" minTime="0.0003" maxTime="0.0004" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="SafeDisc_Encode" id="46" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0402" callsPerFrame="108.00" timePerCall="0.0004" minTime="0.0003" maxTime="0.0004" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_handleCommand summary" id="10" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="0.00" globalPercent="" />
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="246" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="6.3258" callsPerFrame="74.00" timePerCall="0.0855" minTime="0.0035" maxTime="0.0812" guardTime="0.0000" allocatedMemory="477821.0" allocatedMemoryIncrease="476117.0" allocationCalls="214.0" allocationCallIncrease="143.0" localPercent="0.13" globalPercent="0.05" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.1871" callsPerFrame="71.00" timePerCall="0.0308" minTime="0.0070" maxTime="0.0283" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="34.57" globalPercent="0.02" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="34.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0848" callsPerFrame="3.00" timePerCall="0.0283" minTime="0.0199" maxTime="0.0283" guardTime="0.0000" allocatedMemory="201.0" allocatedMemoryIncrease="0.0" allocationCalls="3.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_run summary" id="7" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="98.00" globalPercent="" />
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="1.3034" callsPerFrame="10.00" timePerCall="0.1303" minTime="0.0681" maxTime="0.1303" guardTime="0.0000" allocatedMemory="195174.0" allocatedMemoryIncrease="194934.0" allocationCalls="31.0" allocationCallIncrease="21.0" localPercent="0.03" globalPercent="0.01" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.8298" callsPerFrame="10.00" timePerCall="0.0830" minTime="0.0363" maxTime="0.0830" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="63.67" globalPercent="0.01" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="63.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.9935" callsPerFrame="27.00" timePerCall="0.0368" minTime="0.0153" maxTime="0.0368" guardTime="0.0000" allocatedMemory="1734.0" allocatedMemoryIncrease="0.0" allocationCalls="27.0" allocationCallIncrease="0.0" localPercent="0.02" globalPercent="0.01" >
+</Node>
+<Node name="Win32FileSystem_addListener" id="26" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1256" callsPerFrame="5.00" timePerCall="0.0251" minTime="0.0238" maxTime="0.0251" guardTime="0.0000" allocatedMemory="320.0" allocatedMemoryIncrease="0.0" allocationCalls="5.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_handleCommand summary" id="10" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="98.00" globalPercent="" />
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="32" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.8952" callsPerFrame="13.00" timePerCall="0.0689" minTime="0.0458" maxTime="0.0689" guardTime="0.0000" allocatedMemory="44125.0" allocatedMemoryIncrease="43813.0" allocationCalls="40.0" allocationCallIncrease="27.0" localPercent="0.02" globalPercent="0.01" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.2474" callsPerFrame="13.00" timePerCall="0.0190" minTime="0.0055" maxTime="0.0190" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="27.63" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="27.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_write" id="44" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.2300" callsPerFrame="2.00" timePerCall="0.1150" minTime="0.0311" maxTime="0.1150" guardTime="0.0000" allocatedMemory="164780.0" allocatedMemoryIncrease="0.0" allocationCalls="2.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_getFileInfo" id="43" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1141" callsPerFrame="3.00" timePerCall="0.0380" minTime="0.0326" maxTime="0.0380" guardTime="0.0000" allocatedMemory="2324.0" allocatedMemoryIncrease="2172.0" allocationCalls="5.0" allocationCallIncrease="1.0" localPercent="0.00" globalPercent="0.00" >
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1083" callsPerFrame="3.00" timePerCall="0.0361" minTime="0.0305" maxTime="0.0361" guardTime="0.0000" allocatedMemory="152.0" allocatedMemoryIncrease="0.0" allocationCalls="4.0" allocationCallIncrease="0.0" localPercent="94.86" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_getFileInfo summary" id="43" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="94.00" globalPercent="" />
+</Node>
+<Node name="OldConsole_run summary" id="7" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="1.8100" callsPerFrame="54.00" timePerCall="0.0335" minTime="0.0264" maxTime="0.0329" guardTime="0.0000" allocatedMemory="2052.0" allocatedMemoryIncrease="0.0" allocationCalls="54.0" allocationCallIncrease="0.0" localPercent="0.04" globalPercent="0.02" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="1.1445" callsPerFrame="54.00" timePerCall="0.0212" minTime="0.0018" maxTime="0.0181" guardTime="0.0000" allocatedMemory="153372.0" allocatedMemoryIncrease="152940.0" allocationCalls="55.0" allocationCallIncrease="37.0" localPercent="0.02" globalPercent="0.01" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.4733" callsPerFrame="18.00" timePerCall="0.0263" minTime="0.0073" maxTime="0.0263" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="41.36" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="41.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_addListener" id="26" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.3955" callsPerFrame="18.00" timePerCall="0.0220" minTime="0.0193" maxTime="0.0220" guardTime="0.0000" allocatedMemory="1152.0" allocatedMemoryIncrease="0.0" allocationCalls="18.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_handleCommand summary" id="10" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1412" callsPerFrame="3.00" timePerCall="0.0471" minTime="0.0168" maxTime="0.0471" guardTime="0.0000" allocatedMemory="132.0" allocatedMemoryIncrease="0.0" allocationCalls="3.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1191" callsPerFrame="5.00" timePerCall="0.0238" minTime="0.0026" maxTime="0.0238" guardTime="0.0000" allocatedMemory="4575.0" allocatedMemoryIncrease="4527.0" allocationCalls="7.0" allocationCallIncrease="5.0" localPercent="0.00" globalPercent="0.00" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0360" callsPerFrame="2.00" timePerCall="0.0180" minTime="0.0153" maxTime="0.0180" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="30.20" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="30.00" globalPercent="" />
+</Node>
+<Node name="OldConsole_run summary" id="7" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="1.6260" callsPerFrame="45.00" timePerCall="0.0361" minTime="0.0154" maxTime="0.0366" guardTime="0.0000" allocatedMemory="2412.0" allocatedMemoryIncrease="0.0" allocationCalls="45.0" allocationCallIncrease="0.0" localPercent="0.03" globalPercent="0.01" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="32" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.7095" callsPerFrame="17.00" timePerCall="0.0417" minTime="0.0020" maxTime="0.0417" guardTime="0.0000" allocatedMemory="7182.0" allocatedMemoryIncrease="6870.0" allocationCalls="34.0" allocationCallIncrease="21.0" localPercent="0.01" globalPercent="0.01" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0645" callsPerFrame="10.00" timePerCall="0.0065" minTime="0.0036" maxTime="0.0065" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="9.09" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="9.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_addListener" id="26" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0510" callsPerFrame="2.00" timePerCall="0.0255" minTime="0.0233" maxTime="0.0255" guardTime="0.0000" allocatedMemory="128.0" allocatedMemoryIncrease="0.0" allocationCalls="2.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initHudManager summary" id="42" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="98.00" globalPercent="" />
+</Node>
+<Node name="effect_setD3DXEffect" id="24" pageFaults="7221" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="183.3427" callsPerFrame="17.00" timePerCall="10.7849" minTime="1.4841" maxTime="10.7849" guardTime="0.0000" allocatedMemory="65592.0" allocatedMemoryIncrease="61432.0" allocationCalls="1061.0" allocationCallIncrease="956.0" localPercent="1.68" globalPercent="1.59" >
+<Node name="effect_enumerateTechniques" id="25" pageFaults="7221" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="182.8025" callsPerFrame="17.00" timePerCall="10.7531" minTime="1.4757" maxTime="10.7531" guardTime="0.0000" allocatedMemory="15260.0" allocatedMemoryIncrease="11100.0" allocationCalls="220.0" allocationCallIncrease="115.0" localPercent="99.71" globalPercent="1.59" >
+</Node>
+<Node name="effect_setD3DXEffect summary" id="24" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="Sound_Initialize" id="19" pageFaults="1610" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="82.6239" callsPerFrame="1.00" timePerCall="82.6239" minTime="82.6239" maxTime="82.6239" guardTime="0.0000" allocatedMemory="5356.0" allocatedMemoryIncrease="4664.0" allocationCalls="16.0" allocationCallIncrease="9.0" localPercent="0.76" globalPercent="0.72" >
+<Node name="sound_internalLoadSoundFiles" id="21" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0007" callsPerFrame="1.00" timePerCall="0.0007" minTime="0.0007" maxTime="0.0007" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="sound_internalUnloadSoundFiles" id="20" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0005" callsPerFrame="1.00" timePerCall="0.0005" minTime="0.0005" maxTime="0.0005" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="Sound_Initialize summary" id="19" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="0.00" globalPercent="" />
+</Node>
+<Node name="BF2Render_InitRenderPath" id="33" pageFaults="777" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="27.5095" callsPerFrame="1.00" timePerCall="27.5095" minTime="27.5095" maxTime="27.5095" guardTime="0.0000" allocatedMemory="74920.0" allocatedMemoryIncrease="46320.0" allocationCalls="256.0" allocationCallIncrease="176.0" localPercent="0.25" globalPercent="0.24" >
+<Node name="NametagRenderer_pathInit" id="35" pageFaults="764" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="23.0268" callsPerFrame="3.00" timePerCall="7.6756" minTime="0.2005" maxTime="7.6756" guardTime="0.0000" allocatedMemory="55387.0" allocatedMemoryIncrease="30792.0" allocationCalls="191.0" allocationCallIncrease="130.0" localPercent="83.70" globalPercent="0.20" >
+<Node name="effect_setD3DXEffect" id="24" pageFaults="170" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="10.0400" callsPerFrame="1.00" timePerCall="10.0400" minTime="10.0400" maxTime="10.0400" guardTime="0.0000" allocatedMemory="7240.0" allocatedMemoryIncrease="6352.0" allocationCalls="91.0" allocationCallIncrease="69.0" localPercent="43.60" globalPercent="0.09" >
+<Node name="effect_enumerateTechniques" id="25" pageFaults="170" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="10.0068" callsPerFrame="1.00" timePerCall="10.0068" minTime="10.0068" maxTime="10.0068" guardTime="0.0000" allocatedMemory="1628.0" allocatedMemoryIncrease="740.0" allocationCalls="30.0" allocationCallIncrease="8.0" localPercent="99.67" globalPercent="0.09" >
+</Node>
+<Node name="effect_setD3DXEffect summary" id="24" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.3019" callsPerFrame="9.00" timePerCall="0.0335" minTime="0.0254" maxTime="0.0335" guardTime="0.0000" allocatedMemory="342.0" allocatedMemoryIncrease="0.0" allocationCalls="9.0" allocationCallIncrease="0.0" localPercent="1.31" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1617" callsPerFrame="2.00" timePerCall="0.0809" minTime="0.0783" maxTime="0.0809" guardTime="0.0000" allocatedMemory="12890.0" allocatedMemoryIncrease="12842.0" allocationCalls="7.0" allocationCallIncrease="5.0" localPercent="0.70" globalPercent="0.00" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0824" callsPerFrame="2.00" timePerCall="0.0412" minTime="0.0302" maxTime="0.0412" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="50.98" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="50.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_addListener" id="26" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0538" callsPerFrame="1.00" timePerCall="0.0538" minTime="0.0538" maxTime="0.0538" guardTime="0.0000" allocatedMemory="64.0" allocatedMemoryIncrease="0.0" allocationCalls="1.0" allocationCallIncrease="0.0" localPercent="0.23" globalPercent="0.00" >
+</Node>
+<Node name="effect_getParameterBySemanticAddRef" id="27" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0095" callsPerFrame="6.00" timePerCall="0.0016" minTime="0.0011" maxTime="0.0016" guardTime="0.0000" allocatedMemory="2172.0" allocatedMemoryIncrease="2172.0" allocationCalls="1.0" allocationCallIncrease="1.0" localPercent="0.04" globalPercent="0.00" >
+<Node name="effect_getParameterBySemantic" id="28" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0040" callsPerFrame="6.00" timePerCall="0.0007" minTime="0.0005" maxTime="0.0007" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="41.56" globalPercent="0.00" >
+</Node>
+<Node name="effect_getParameterBySemanticAddRef summary" id="27" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="41.00" globalPercent="" />
+</Node>
+<Node name="NametagRenderer_pathInit summary" id="35" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="45.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.3382" callsPerFrame="9.00" timePerCall="0.0376" minTime="0.0259" maxTime="0.0376" guardTime="0.0000" allocatedMemory="342.0" allocatedMemoryIncrease="0.0" allocationCalls="9.0" allocationCallIncrease="0.0" localPercent="1.23" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0747" callsPerFrame="1.00" timePerCall="0.0747" minTime="0.0747" maxTime="0.0747" guardTime="0.0000" allocatedMemory="4687.0" allocatedMemoryIncrease="4663.0" allocationCalls="4.0" allocationCallIncrease="3.0" localPercent="0.27" globalPercent="0.00" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0303" callsPerFrame="1.00" timePerCall="0.0303" minTime="0.0303" maxTime="0.0303" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="40.57" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="40.00" globalPercent="" />
+</Node>
+<Node name="statemanager_applyRTAndDepth" id="34" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0037" callsPerFrame="3.00" timePerCall="0.0012" minTime="0.0006" maxTime="0.0012" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.00" >
+</Node>
+<Node name="BF2Render_InitRenderPath summary" id="33" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="85.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="25" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="16.4302" callsPerFrame="522.00" timePerCall="0.0315" minTime="0.0185" maxTime="0.0343" guardTime="0.0000" allocatedMemory="64018.0" allocatedMemoryIncrease="2172.0" allocationCalls="523.0" allocationCallIncrease="1.0" localPercent="0.15" globalPercent="0.14" >
+<Node name="Win32FileSystem_createDirectory" id="4" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0646" callsPerFrame="1.00" timePerCall="0.0646" minTime="0.0646" maxTime="0.0646" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.39" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_open summary" id="3" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="0.00" globalPercent="" />
+</Node>
+<Node name="OldConsole_run" id="7" pageFaults="33" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="9.0312" callsPerFrame="1.00" timePerCall="9.0312" minTime="9.0312" maxTime="9.0312" guardTime="0.0000" allocatedMemory="65505.0" allocatedMemoryIncrease="44808.0" allocationCalls="484.0" allocationCallIncrease="467.0" localPercent="0.08" globalPercent="0.08" >
+<Node name="OldConsole_handleCommand" id="10" pageFaults="33" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="7.3788" callsPerFrame="251.00" timePerCall="0.0294" minTime="0.0100" maxTime="0.0311" guardTime="0.0000" allocatedMemory="36120.0" allocatedMemoryIncrease="36120.0" allocationCalls="463.0" allocationCallIncrease="463.0" localPercent="81.70" globalPercent="0.06" >
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1933" callsPerFrame="2.00" timePerCall="0.0966" minTime="0.0622" maxTime="0.0966" guardTime="0.0000" allocatedMemory="89.0" allocatedMemoryIncrease="0.0" allocationCalls="2.0" allocationCallIncrease="0.0" localPercent="2.14" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_read" id="9" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0396" callsPerFrame="1.00" timePerCall="0.0396" minTime="0.0396" maxTime="0.0396" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.44" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_getSize" id="5" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0066" callsPerFrame="2.00" timePerCall="0.0033" minTime="0.0004" maxTime="0.0033" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.07" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_run summary" id="7" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="84.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_getSize" id="5" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="8.1860" callsPerFrame="24096.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0003" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.07" globalPercent="0.07" >
+</Node>
+<Node name="Win32FileSystem_getPosition" id="15" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="7.6120" callsPerFrame="23570.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0003" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.07" globalPercent="0.07" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="30" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4.6779" callsPerFrame="83.00" timePerCall="0.0564" minTime="0.0019" maxTime="0.0552" guardTime="0.0000" allocatedMemory="393494.0" allocatedMemoryIncrease="392030.0" allocationCalls="178.0" allocationCallIncrease="117.0" localPercent="0.04" globalPercent="0.04" >
+<Node name="ZipArchive_read" id="23" pageFaults="5" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="1.9664" callsPerFrame="58.00" timePerCall="0.0339" minTime="0.0038" maxTime="0.0310" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="42.04" globalPercent="0.02" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="42.00" globalPercent="" />
+</Node>
+<Node name="FileManager_findFiles_a" id="13" pageFaults="20" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="3.2804" callsPerFrame="10.00" timePerCall="0.3280" minTime="0.1536" maxTime="0.3280" guardTime="0.0000" allocatedMemory="191926.0" allocatedMemoryIncrease="17040.0" allocationCalls="1012.0" allocationCallIncrease="178.0" localPercent="0.03" globalPercent="0.03" >
+<Node name="Win32FileSystem_findFiles" id="14" pageFaults="6" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.4077" callsPerFrame="30.00" timePerCall="0.0803" minTime="0.0244" maxTime="0.0803" guardTime="0.0000" allocatedMemory="44785.0" allocatedMemoryIncrease="15120.0" allocationCalls="633.0" allocationCallIncrease="180.0" localPercent="73.40" globalPercent="0.02" >
+</Node>
+<Node name="FileManager_findFiles_a summary" id="13" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="73.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_read" id="9" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="3.1045" callsPerFrame="184.00" timePerCall="0.0169" minTime="0.0063" maxTime="0.0164" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.03" globalPercent="0.03" >
+</Node>
+<Node name="OldConsole_handleCommand" id="10" pageFaults="23" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.0178" callsPerFrame="49.00" timePerCall="0.0412" minTime="0.0073" maxTime="0.0585" guardTime="0.0000" allocatedMemory="304.0" allocatedMemoryIncrease="0.0" allocationCalls="1.0" allocationCallIncrease="0.0" localPercent="0.02" globalPercent="0.02" >
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="1.6120" callsPerFrame="45.00" timePerCall="0.0358" minTime="0.0235" maxTime="0.0388" guardTime="0.0000" allocatedMemory="5044.0" allocatedMemoryIncrease="0.0" allocationCalls="53.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.01" >
+</Node>
+<Node name="Win32FileSystem_addListener" id="26" pageFaults="1" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.9914" callsPerFrame="17.00" timePerCall="0.0583" minTime="0.0484" maxTime="0.0583" guardTime="0.0000" allocatedMemory="1088.0" allocatedMemoryIncrease="0.0" allocationCalls="17.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.01" >
+</Node>
+<Node name="BF2Render_InitConsoleOverlay" id="36" pageFaults="1" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.9501" callsPerFrame="1.00" timePerCall="0.9501" minTime="0.9501" maxTime="0.9501" guardTime="0.0000" allocatedMemory="15057.0" allocatedMemoryIncrease="12428.0" allocationCalls="19.0" allocationCallIncrease="13.0" localPercent="0.01" globalPercent="0.01" >
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1232" callsPerFrame="3.00" timePerCall="0.0411" minTime="0.0333" maxTime="0.0411" guardTime="0.0000" allocatedMemory="114.0" allocatedMemoryIncrease="0.0" allocationCalls="3.0" allocationCallIncrease="0.0" localPercent="12.97" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0664" callsPerFrame="1.00" timePerCall="0.0664" minTime="0.0664" maxTime="0.0664" guardTime="0.0000" allocatedMemory="4687.0" allocatedMemoryIncrease="4663.0" allocationCalls="4.0" allocationCallIncrease="3.0" localPercent="6.99" globalPercent="0.00" >
+<Node name="ZipArchive_read" id="23" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0275" callsPerFrame="1.00" timePerCall="0.0275" minTime="0.0275" maxTime="0.0275" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="41.43" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open summary" id="22" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="41.00" globalPercent="" />
+</Node>
+<Node name="effect_getParameterBySemantic" id="28" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0013" callsPerFrame="2.00" timePerCall="0.0006" minTime="0.0004" maxTime="0.0006" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.13" globalPercent="0.00" >
+</Node>
+<Node name="BF2Render_InitConsoleOverlay summary" id="36" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="20.00" globalPercent="" />
+</Node>
+<Node name="effect_getParameterBySemanticAddRef" id="27" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.7225" callsPerFrame="174.00" timePerCall="0.0042" minTime="0.0011" maxTime="0.0055" guardTime="0.0000" allocatedMemory="4596.0" allocatedMemoryIncrease="4260.0" allocationCalls="49.0" allocationCallIncrease="48.0" localPercent="0.01" globalPercent="0.01" >
+<Node name="effect_getParameterBySemantic" id="28" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.5998" callsPerFrame="174.00" timePerCall="0.0034" minTime="0.0004" maxTime="0.0048" guardTime="0.0000" allocatedMemory="2424.0" allocatedMemoryIncrease="2088.0" allocationCalls="48.0" allocationCallIncrease="47.0" localPercent="83.01" globalPercent="0.01" >
+</Node>
+<Node name="effect_getParameterBySemanticAddRef summary" id="27" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="83.00" globalPercent="" />
+</Node>
+<Node name="BF2Render_Optimize" id="38" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0609" callsPerFrame="1.00" timePerCall="0.0609" minTime="0.0609" maxTime="0.0609" guardTime="0.0000" allocatedMemory="792.0" allocatedMemoryIncrease="792.0" allocationCalls="4.0" allocationCallIncrease="4.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="BF2Render_CreateObjectDrawer" id="37" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0287" callsPerFrame="1.00" timePerCall="0.0287" minTime="0.0287" maxTime="0.0287" guardTime="0.0000" allocatedMemory="288.0" allocatedMemoryIncrease="288.0" allocationCalls="4.0" allocationCallIncrease="4.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="NametagManager_ClearAll" id="30" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0198" callsPerFrame="1.00" timePerCall="0.0198" minTime="0.0198" maxTime="0.0198" guardTime="0.0000" allocatedMemory="4160.0" allocatedMemoryIncrease="4160.0" allocationCalls="130.0" allocationCallIncrease="130.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="effect_getParameterBySemantic" id="28" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0068" callsPerFrame="11.00" timePerCall="0.0006" minTime="0.0004" maxTime="0.0006" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="effect_setTechniqueByName" id="29" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0064" callsPerFrame="7.00" timePerCall="0.0009" minTime="0.0004" maxTime="0.0009" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_seek" id="16" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0057" callsPerFrame="2.00" timePerCall="0.0029" minTime="0.0023" maxTime="0.0029" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="statemanager_apply" id="40" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0043" callsPerFrame="1.00" timePerCall="0.0043" minTime="0.0043" maxTime="0.0043" guardTime="0.0000" allocatedMemory="2172.0" allocatedMemoryIncrease="2172.0" allocationCalls="1.0" allocationCallIncrease="1.0" localPercent="0.00" globalPercent="0.00" >
+<Node name="statemanager_applyRTAndDepth" id="34" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0004" callsPerFrame="1.00" timePerCall="0.0004" minTime="0.0004" maxTime="0.0004" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="9.29" globalPercent="0.00" >
+</Node>
+<Node name="statemanager_apply summary" id="40" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="9.00" globalPercent="" />
+</Node>
+<Node name="BF2Render_DeleteOptimizers" id="39" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0032" callsPerFrame="1.00" timePerCall="0.0032" minTime="0.0032" maxTime="0.0032" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="-792.0" allocationCalls="0.0" allocationCallIncrease="-4.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="statemanager_applyRTAndDepth" id="34" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0031" callsPerFrame="3.00" timePerCall="0.0010" minTime="0.0005" maxTime="0.0010" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="effect_queryTechniqueByName" id="31" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0025" callsPerFrame="1.00" timePerCall="0.0025" minTime="0.0025" maxTime="0.0025" guardTime="0.0000" allocatedMemory="2172.0" allocatedMemoryIncrease="2172.0" allocationCalls="1.0" allocationCallIncrease="1.0" localPercent="0.00" globalPercent="0.00" >
+<Node name="effect_setTechniqueByName" id="29" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0007" callsPerFrame="1.00" timePerCall="0.0007" minTime="0.0007" maxTime="0.0007" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="29.71" globalPercent="0.00" >
+</Node>
+<Node name="effect_queryTechniqueByName summary" id="31" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="29.00" globalPercent="" />
+</Node>
+<Node name="BF2Render_InitRenderView" id="32" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0017" callsPerFrame="1.00" timePerCall="0.0017" minTime="0.0017" maxTime="0.0017" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initConsole" id="41" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0007" callsPerFrame="1.00" timePerCall="0.0007" minTime="0.0007" maxTime="0.0007" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initRenderer summary" id="18" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="47.00" globalPercent="" />
+</Node>
+<Node name="setupArchives" id="8" pageFaults="5130" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="446.2967" callsPerFrame="1.00" timePerCall="446.2967" minTime="446.2967" maxTime="446.2967" guardTime="0.0000" allocatedMemory="5311273.0" allocatedMemoryIncrease="5295756.0" allocationCalls="31060.0" allocationCallIncrease="30836.0" localPercent="3.87" globalPercent="3.87" >
+<Node name="OldConsole_run" id="7" pageFaults="5130" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="446.2911" callsPerFrame="2.00" timePerCall="223.1456" minTime="128.9167" maxTime="223.1456" guardTime="0.0000" allocatedMemory="5309101.0" allocatedMemoryIncrease="5293584.0" allocationCalls="31059.0" allocationCallIncrease="30835.0" localPercent="100.00" globalPercent="3.87" >
+<Node name="OldConsole_handleCommand" id="10" pageFaults="5123" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="445.7898" callsPerFrame="20.00" timePerCall="22.2895" minTime="0.1012" maxTime="22.2895" guardTime="0.0000" allocatedMemory="5297065.0" allocatedMemoryIncrease="5284896.0" allocationCalls="31027.0" allocationCallIncrease="30831.0" localPercent="99.89" globalPercent="3.87" >
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="1" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.1523" callsPerFrame="52.00" timePerCall="0.0414" minTime="0.0167" maxTime="0.0367" guardTime="0.0000" allocatedMemory="4681.0" allocatedMemoryIncrease="0.0" allocationCalls="65.0" allocationCallIncrease="0.0" localPercent="0.48" globalPercent="0.02" >
+</Node>
+<Node name="OldConsole_handleCommand summary" id="10" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="0.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0616" callsPerFrame="2.00" timePerCall="0.0308" minTime="0.0301" maxTime="0.0308" guardTime="0.0000" allocatedMemory="86.0" allocatedMemoryIncrease="0.0" allocationCalls="2.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_read" id="9" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0366" callsPerFrame="2.00" timePerCall="0.0183" minTime="0.0135" maxTime="0.0183" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_getSize" id="5" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0057" callsPerFrame="4.00" timePerCall="0.0014" minTime="0.0003" maxTime="0.0014" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_run summary" id="7" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="setupArchives summary" id="8" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="initLocalization" id="12" pageFaults="796" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="120.8688" callsPerFrame="1.00" timePerCall="120.8688" minTime="120.8688" maxTime="120.8688" guardTime="0.0000" allocatedMemory="2167385.0" allocatedMemoryIncrease="345336.0" allocationCalls="14343.0" allocationCallIncrease="4592.0" localPercent="1.05" globalPercent="1.05" >
+<Node name="Win32FileSystem_getSize" id="5" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="14.7321" callsPerFrame="47163.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0003" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="12.19" globalPercent="0.13" >
+</Node>
+<Node name="Win32FileSystem_getPosition" id="15" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="14.4780" callsPerFrame="47135.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0003" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="11.98" globalPercent="0.13" >
+</Node>
+<Node name="FileManager_findFiles_a" id="13" pageFaults="5" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.6833" callsPerFrame="2.00" timePerCall="0.3417" minTime="0.2783" maxTime="0.3417" guardTime="0.0000" allocatedMemory="43646.0" allocatedMemoryIncrease="3348.0" allocationCalls="236.0" allocationCallIncrease="15.0" localPercent="0.57" globalPercent="0.01" >
+<Node name="Win32FileSystem_findFiles" id="14" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.4846" callsPerFrame="6.00" timePerCall="0.0808" minTime="0.0475" maxTime="0.0808" guardTime="0.0000" allocatedMemory="15346.0" allocatedMemoryIncrease="2604.0" allocationCalls="203.0" allocationCallIncrease="31.0" localPercent="70.92" globalPercent="0.00" >
+</Node>
+<Node name="FileManager_findFiles_a summary" id="13" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="70.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.6549" callsPerFrame="18.00" timePerCall="0.0364" minTime="0.0257" maxTime="0.0364" guardTime="0.0000" allocatedMemory="1255.0" allocatedMemoryIncrease="0.0" allocationCalls="18.0" allocationCallIncrease="0.0" localPercent="0.54" globalPercent="0.01" >
+</Node>
+<Node name="Win32FileSystem_read" id="9" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.5802" callsPerFrame="28.00" timePerCall="0.0207" minTime="0.0046" maxTime="0.0207" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.48" globalPercent="0.01" >
+</Node>
+<Node name="Win32FileSystem_seek" id="16" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0116" callsPerFrame="4.00" timePerCall="0.0029" minTime="0.0017" maxTime="0.0029" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.01" globalPercent="0.00" >
+</Node>
+<Node name="initLocalization summary" id="12" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="25.00" globalPercent="" />
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.6565" callsPerFrame="2.00" timePerCall="0.3282" minTime="0.1614" maxTime="0.3282" guardTime="0.0000" allocatedMemory="2306.0" allocatedMemoryIncrease="2172.0" allocationCalls="3.0" allocationCallIncrease="1.0" localPercent="0.01" globalPercent="0.01" >
+<Node name="Win32FileSystem_createDirectory" id="4" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0979" callsPerFrame="2.00" timePerCall="0.0490" minTime="0.0438" maxTime="0.0490" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="14.92" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_open summary" id="3" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="14.00" globalPercent="" />
+</Node>
+<Node name="load_userSettingsConFile" id="17" pageFaults="4" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.5382" callsPerFrame="1.00" timePerCall="0.5382" minTime="0.5382" maxTime="0.5382" guardTime="0.0000" allocatedMemory="12537.0" allocatedMemoryIncrease="10860.0" allocationCalls="19.0" allocationCallIncrease="5.0" localPercent="0.00" globalPercent="0.00" >
+<Node name="OldConsole_run" id="7" pageFaults="4" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.5336" callsPerFrame="1.00" timePerCall="0.5336" minTime="0.5336" maxTime="0.5336" guardTime="0.0000" allocatedMemory="10365.0" allocatedMemoryIncrease="8688.0" allocationCalls="18.0" allocationCallIncrease="4.0" localPercent="99.14" globalPercent="0.00" >
+<Node name="OldConsole_handleCommand" id="10" pageFaults="4" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.2573" callsPerFrame="14.00" timePerCall="0.0184" minTime="0.0026" maxTime="0.0184" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="48.23" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0884" callsPerFrame="1.00" timePerCall="0.0884" minTime="0.0884" maxTime="0.0884" guardTime="0.0000" allocatedMemory="50.0" allocatedMemoryIncrease="0.0" allocationCalls="1.0" allocationCallIncrease="0.0" localPercent="16.56" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_read" id="9" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0228" callsPerFrame="1.00" timePerCall="0.0228" minTime="0.0228" maxTime="0.0228" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="4.27" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_getSize" id="5" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0047" callsPerFrame="2.00" timePerCall="0.0024" minTime="0.0003" maxTime="0.0024" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.89" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_run summary" id="7" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="69.00" globalPercent="" />
+</Node>
+<Node name="load_userSettingsConFile summary" id="17" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+<Node name="load_debugSettingsConFile" id="6" pageFaults="2" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1991" callsPerFrame="1.00" timePerCall="0.1991" minTime="0.1991" maxTime="0.1991" guardTime="0.0000" allocatedMemory="5116.0" allocatedMemoryIncrease="4468.0" allocationCalls="14.0" allocationCallIncrease="5.0" localPercent="0.00" globalPercent="0.00" >
+<Node name="OldConsole_run" id="7" pageFaults="1" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1616" callsPerFrame="1.00" timePerCall="0.1616" minTime="0.1616" maxTime="0.1616" guardTime="0.0000" allocatedMemory="2904.0" allocatedMemoryIncrease="2256.0" allocationCalls="12.0" allocationCallIncrease="3.0" localPercent="81.18" globalPercent="0.00" >
+<Node name="Win32FileSystem_open" id="3" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0795" callsPerFrame="3.00" timePerCall="0.0265" minTime="0.0158" maxTime="0.0265" guardTime="0.0000" allocatedMemory="138.0" allocatedMemoryIncrease="0.0" allocationCalls="3.0" allocationCallIncrease="0.0" localPercent="49.19" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_run summary" id="7" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="49.00" globalPercent="" />
+</Node>
+<Node name="load_debugSettingsConFile summary" id="6" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="81.00" globalPercent="" />
+</Node>
+<Node name="initNetwork" id="47" pageFaults="3" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0724" callsPerFrame="1.00" timePerCall="0.0724" minTime="0.0724" maxTime="0.0724" guardTime="0.0000" allocatedMemory="16884.0" allocatedMemoryIncrease="16884.0" allocationCalls="11.0" allocationCallIncrease="11.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initFileSystem" id="2" pageFaults="6" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0403" callsPerFrame="1.00" timePerCall="0.0403" minTime="0.0403" maxTime="0.0403" guardTime="0.0000" allocatedMemory="352.0" allocatedMemoryIncrease="352.0" allocationCalls="7.0" allocationCallIncrease="7.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_getSize" id="5" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0091" callsPerFrame="4.00" timePerCall="0.0023" minTime="0.0013" maxTime="0.0023" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="profiler_calibration_timer" id="1" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0034" callsPerFrame="11.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0003" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="Global Timer summary" id="0" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="99.00" globalPercent="" />
+</Node>
+</Node>
+<Node name="Report per Timer" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+<Node name="Global Timer" id="0" pageFaults="94687" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="11529.7344" callsPerFrame="1.00" timePerCall="11529.7344" minTime="1529.5476" maxTime="11529.7344" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="profiler_calibration_timer" id="1" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0034" callsPerFrame="11.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initFileSystem" id="2" pageFaults="6" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0403" callsPerFrame="1.00" timePerCall="0.0403" minTime="0.0403" maxTime="0.0000" guardTime="0.0000" allocatedMemory="352.0" allocatedMemoryIncrease="352.0" allocationCalls="7.0" allocationCallIncrease="7.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_open" id="3" pageFaults="25" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="18.3904" callsPerFrame="556.00" timePerCall="0.0331" minTime="0.0158" maxTime="0.0000" guardTime="0.0000" allocatedMemory="68275.0" allocatedMemoryIncrease="4344.0" allocationCalls="558.0" allocationCallIncrease="2.0" localPercent="0.00" globalPercent="0.16" >
+</Node>
+<Node name="Win32FileSystem_createDirectory" id="4" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1626" callsPerFrame="3.00" timePerCall="0.0542" minTime="0.0438" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="Win32FileSystem_getSize" id="5" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="22.9443" callsPerFrame="71271.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0013" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.20" >
+</Node>
+<Node name="load_debugSettingsConFile" id="6" pageFaults="2" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1991" callsPerFrame="1.00" timePerCall="0.1991" minTime="0.1991" maxTime="0.0000" guardTime="0.0000" allocatedMemory="5116.0" allocatedMemoryIncrease="4468.0" allocationCalls="14.0" allocationCallIncrease="5.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="OldConsole_run" id="7" pageFaults="10734" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="14725.5771" callsPerFrame="93.00" timePerCall="158.3395" minTime="0.1616" maxTime="0.0000" guardTime="0.0000" allocatedMemory="17781264.0" allocatedMemoryIncrease="10893448.0" allocationCalls="160214.0" allocationCallIncrease="154238.0" localPercent="0.00" globalPercent="127.72" >
+</Node>
+<Node name="setupArchives" id="8" pageFaults="5130" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="446.2967" callsPerFrame="1.00" timePerCall="446.2967" minTime="446.2967" maxTime="0.0000" guardTime="0.0000" allocatedMemory="5311273.0" allocatedMemoryIncrease="5295756.0" allocationCalls="31060.0" allocationCallIncrease="30836.0" localPercent="0.00" globalPercent="3.87" >
+</Node>
+<Node name="Win32FileSystem_read" id="9" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="3.7838" callsPerFrame="216.00" timePerCall="0.0175" minTime="0.0046" maxTime="0.0898" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.03" >
+</Node>
+<Node name="OldConsole_handleCommand" id="10" pageFaults="10285" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="14664.2305" callsPerFrame="8709.00" timePerCall="1.6838" minTime="0.0025" maxTime="1.8418" guardTime="0.0000" allocatedMemory="16422597.0" allocatedMemoryIncrease="10834316.0" allocationCalls="158885.0" allocationCallIncrease="154205.0" localPercent="0.00" globalPercent="127.19" >
+</Node>
+<Node name="Win32FileSystem_findFileOnDisc" id="11" pageFaults="1" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="15.5268" callsPerFrame="394.00" timePerCall="0.0394" minTime="0.0152" maxTime="0.1308" guardTime="0.0000" allocatedMemory="25719.0" allocatedMemoryIncrease="0.0" allocationCalls="432.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.13" >
+</Node>
+<Node name="initLocalization" id="12" pageFaults="796" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="120.8688" callsPerFrame="1.00" timePerCall="120.8688" minTime="120.8688" maxTime="0.0000" guardTime="0.0000" allocatedMemory="2167385.0" allocatedMemoryIncrease="345336.0" allocationCalls="14343.0" allocationCallIncrease="4592.0" localPercent="0.00" globalPercent="1.05" >
+</Node>
+<Node name="FileManager_findFiles_a" id="13" pageFaults="25" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="3.9637" callsPerFrame="12.00" timePerCall="0.3303" minTime="0.1536" maxTime="0.0000" guardTime="0.0000" allocatedMemory="235572.0" allocatedMemoryIncrease="20388.0" allocationCalls="1248.0" allocationCallIncrease="193.0" localPercent="0.00" globalPercent="0.03" >
+</Node>
+<Node name="Win32FileSystem_findFiles" id="14" pageFaults="6" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.8923" callsPerFrame="36.00" timePerCall="0.0803" minTime="0.0244" maxTime="0.0000" guardTime="0.0000" allocatedMemory="60131.0" allocatedMemoryIncrease="17724.0" allocationCalls="836.0" allocationCallIncrease="211.0" localPercent="0.00" globalPercent="0.03" >
+</Node>
+<Node name="Win32FileSystem_getPosition" id="15" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="22.0900" callsPerFrame="70705.00" timePerCall="0.0003" minTime="0.0003" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.19" >
+</Node>
+<Node name="Win32FileSystem_seek" id="16" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0173" callsPerFrame="6.00" timePerCall="0.0029" minTime="0.0017" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="load_userSettingsConFile" id="17" pageFaults="4" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.5382" callsPerFrame="1.00" timePerCall="0.5382" minTime="0.5382" maxTime="0.0000" guardTime="0.0000" allocatedMemory="12537.0" allocatedMemoryIncrease="10860.0" allocationCalls="19.0" allocationCallIncrease="5.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initRenderer" id="18" pageFaults="79217" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="10917.1729" callsPerFrame="1.00" timePerCall="10917.1729" minTime="1529.5476" maxTime="0.0000" guardTime="0.0000" allocatedMemory="12542876.0" allocatedMemoryIncrease="4358279.0" allocationCalls="86064.0" allocationCallIncrease="51578.0" localPercent="0.00" globalPercent="94.69" >
+</Node>
+<Node name="Sound_Initialize" id="19" pageFaults="1610" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="82.6239" callsPerFrame="1.00" timePerCall="82.6239" minTime="82.6239" maxTime="0.0000" guardTime="0.0000" allocatedMemory="5356.0" allocatedMemoryIncrease="4664.0" allocationCalls="16.0" allocationCallIncrease="9.0" localPercent="0.00" globalPercent="0.72" >
+</Node>
+<Node name="sound_internalUnloadSoundFiles" id="20" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0005" callsPerFrame="1.00" timePerCall="0.0005" minTime="0.0005" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="sound_internalLoadSoundFiles" id="21" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0007" callsPerFrame="1.00" timePerCall="0.0007" minTime="0.0007" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="ZipArchive_open" id="22" pageFaults="411" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="19.4876" callsPerFrame="297.00" timePerCall="0.0656" minTime="0.0018" maxTime="0.2112" guardTime="0.0000" allocatedMemory="1784871.0" allocatedMemoryIncrease="1779471.0" allocationCalls="672.0" allocationCallIncrease="447.0" localPercent="0.00" globalPercent="0.17" >
+</Node>
+<Node name="ZipArchive_read" id="23" pageFaults="5" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="8.0999" callsPerFrame="218.00" timePerCall="0.0372" minTime="0.0036" maxTime="0.1241" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.07" >
+</Node>
+<Node name="effect_setD3DXEffect" id="24" pageFaults="7391" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="193.3826" callsPerFrame="18.00" timePerCall="10.7435" minTime="1.4841" maxTime="0.0000" guardTime="0.0000" allocatedMemory="72832.0" allocatedMemoryIncrease="67784.0" allocationCalls="1152.0" allocationCallIncrease="1025.0" localPercent="0.00" globalPercent="1.68" >
+</Node>
+<Node name="effect_enumerateTechniques" id="25" pageFaults="7391" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="192.8093" callsPerFrame="18.00" timePerCall="10.7116" minTime="1.4757" maxTime="0.0000" guardTime="0.0000" allocatedMemory="16888.0" allocatedMemoryIncrease="11840.0" allocationCalls="250.0" allocationCallIncrease="123.0" localPercent="0.00" globalPercent="1.67" >
+</Node>
+<Node name="Win32FileSystem_addListener" id="26" pageFaults="1" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.1137" callsPerFrame="60.00" timePerCall="0.0352" minTime="0.0193" maxTime="0.0000" guardTime="0.0000" allocatedMemory="3840.0" allocatedMemoryIncrease="0.0" allocationCalls="60.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.02" >
+</Node>
+<Node name="effect_getParameterBySemanticAddRef" id="27" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.7320" callsPerFrame="180.00" timePerCall="0.0041" minTime="0.0011" maxTime="0.0013" guardTime="0.0000" allocatedMemory="6768.0" allocatedMemoryIncrease="6432.0" allocationCalls="50.0" allocationCallIncrease="49.0" localPercent="0.00" globalPercent="0.01" >
+</Node>
+<Node name="effect_getParameterBySemantic" id="28" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.6118" callsPerFrame="193.00" timePerCall="0.0032" minTime="0.0004" maxTime="0.0006" guardTime="0.0000" allocatedMemory="2424.0" allocatedMemoryIncrease="2088.0" allocationCalls="48.0" allocationCallIncrease="47.0" localPercent="0.00" globalPercent="0.01" >
+</Node>
+<Node name="effect_setTechniqueByName" id="29" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0072" callsPerFrame="8.00" timePerCall="0.0009" minTime="0.0004" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="NametagManager_ClearAll" id="30" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0198" callsPerFrame="1.00" timePerCall="0.0198" minTime="0.0198" maxTime="0.0000" guardTime="0.0000" allocatedMemory="4160.0" allocatedMemoryIncrease="4160.0" allocationCalls="130.0" allocationCallIncrease="130.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="effect_queryTechniqueByName" id="31" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0025" callsPerFrame="1.00" timePerCall="0.0025" minTime="0.0025" maxTime="0.0000" guardTime="0.0000" allocatedMemory="2172.0" allocatedMemoryIncrease="2172.0" allocationCalls="1.0" allocationCallIncrease="1.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="BF2Render_InitRenderView" id="32" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0017" callsPerFrame="1.00" timePerCall="0.0017" minTime="0.0017" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="BF2Render_InitRenderPath" id="33" pageFaults="777" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="27.5095" callsPerFrame="1.00" timePerCall="27.5095" minTime="27.5095" maxTime="0.0000" guardTime="0.0000" allocatedMemory="74920.0" allocatedMemoryIncrease="46320.0" allocationCalls="256.0" allocationCallIncrease="176.0" localPercent="0.00" globalPercent="0.24" >
+</Node>
+<Node name="statemanager_applyRTAndDepth" id="34" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0073" callsPerFrame="7.00" timePerCall="0.0010" minTime="0.0004" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="NametagRenderer_pathInit" id="35" pageFaults="764" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="23.0268" callsPerFrame="3.00" timePerCall="7.6756" minTime="0.2005" maxTime="0.0000" guardTime="0.0000" allocatedMemory="55387.0" allocatedMemoryIncrease="30792.0" allocationCalls="191.0" allocationCallIncrease="130.0" localPercent="0.00" globalPercent="0.20" >
+</Node>
+<Node name="BF2Render_InitConsoleOverlay" id="36" pageFaults="1" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.9501" callsPerFrame="1.00" timePerCall="0.9501" minTime="0.9501" maxTime="0.0000" guardTime="0.0000" allocatedMemory="15057.0" allocatedMemoryIncrease="12428.0" allocationCalls="19.0" allocationCallIncrease="13.0" localPercent="0.00" globalPercent="0.01" >
+</Node>
+<Node name="BF2Render_CreateObjectDrawer" id="37" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0287" callsPerFrame="1.00" timePerCall="0.0287" minTime="0.0287" maxTime="0.0000" guardTime="0.0000" allocatedMemory="288.0" allocatedMemoryIncrease="288.0" allocationCalls="4.0" allocationCallIncrease="4.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="BF2Render_Optimize" id="38" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0609" callsPerFrame="1.00" timePerCall="0.0609" minTime="0.0609" maxTime="0.0000" guardTime="0.0000" allocatedMemory="792.0" allocatedMemoryIncrease="792.0" allocationCalls="4.0" allocationCallIncrease="4.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="BF2Render_DeleteOptimizers" id="39" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0032" callsPerFrame="1.00" timePerCall="0.0032" minTime="0.0032" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="-792.0" allocationCalls="0.0" allocationCallIncrease="-4.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="statemanager_apply" id="40" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0043" callsPerFrame="1.00" timePerCall="0.0043" minTime="0.0043" maxTime="0.0000" guardTime="0.0000" allocatedMemory="2172.0" allocatedMemoryIncrease="2172.0" allocationCalls="1.0" allocationCallIncrease="1.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initConsole" id="41" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0007" callsPerFrame="1.00" timePerCall="0.0007" minTime="0.0007" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initHudManager" id="42" pageFaults="4285" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="4843.3672" callsPerFrame="1.00" timePerCall="4843.3672" minTime="1529.5476" maxTime="0.0000" guardTime="0.0000" allocatedMemory="4917325.0" allocatedMemoryIncrease="2167383.0" allocationCalls="48680.0" allocationCallIncrease="46112.0" localPercent="0.00" globalPercent="42.01" >
+</Node>
+<Node name="Win32FileSystem_getFileInfo" id="43" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.9090" callsPerFrame="51.00" timePerCall="0.0570" minTime="0.0326" maxTime="0.0916" guardTime="0.0000" allocatedMemory="6928.0" allocatedMemoryIncrease="4344.0" allocationCalls="70.0" allocationCallIncrease="2.0" localPercent="0.00" globalPercent="0.03" >
+</Node>
+<Node name="Win32FileSystem_write" id="44" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="2.8834" callsPerFrame="34.00" timePerCall="0.0848" minTime="0.0061" maxTime="0.0074" guardTime="0.0000" allocatedMemory="195560.0" allocatedMemoryIncrease="0.0" allocationCalls="34.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.03" >
+</Node>
+<Node name="SafeDisc_Decode" id="45" pageFaults="9" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.1575" callsPerFrame="408.00" timePerCall="0.0004" minTime="0.0003" maxTime="0.0000" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="SafeDisc_Encode" id="46" pageFaults="0" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0402" callsPerFrame="108.00" timePerCall="0.0004" minTime="0.0003" maxTime="0.0005" guardTime="0.0000" allocatedMemory="0.0" allocatedMemoryIncrease="0.0" allocationCalls="0.0" allocationCallIncrease="0.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+<Node name="initNetwork" id="47" pageFaults="3" timePerTick="0.0000" callsPerTick="0.00" timePerFrame="0.0724" callsPerFrame="1.00" timePerCall="0.0724" minTime="0.0724" maxTime="0.0000" guardTime="0.0000" allocatedMemory="16884.0" allocatedMemoryIncrease="16884.0" allocationCalls="11.0" allocationCallIncrease="11.0" localPercent="0.00" globalPercent="0.00" >
+</Node>
+</Node>
+<Node name="Process and Threads" id="" pageFaults="" timePerTick="" callsPerTick="" timePerFrame="" callsPerFrame="" timePerCall="" minTime="" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" >
+<Node name="" id="Thread Id" pageFaults="" timePerTick="User Time" callsPerTick="User Time Min" timePerFrame="User Time Max" callsPerFrame="Kernel Time" timePerCall="Kernel Time Min" minTime="Kernel Time Max" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent=""> 
+<Node name="Process" id="0" pageFaults="" timePerTick="2750.0000" callsPerTick="2750.0000" timePerFrame="2750.0000" callsPerFrame="1968.0000" timePerCall="1968.0000" minTime="1968.0000" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" />
+<Node name="MainThread" id="19332" pageFaults="" timePerTick="2515.0000" callsPerTick="2515.0000" timePerFrame="2515.0000" callsPerFrame="1937.0000" timePerCall="1937.0000" minTime="1937.0000" maxTime="" guardTime="" allocatedMemory="" allocatedMemoryIncrease="" allocationCalls="" allocationCallIncrease="" localPercent="" globalPercent="" />
+</Node>
+</Node>
+</Nodes>
+</Root>

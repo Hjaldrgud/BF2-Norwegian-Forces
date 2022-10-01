@@ -1,0 +1,625 @@
+Log created 2022-08-26 22:14:49
+--------------------------
+
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Console
+File: D:\DiceCanada\BoosterPack2\Code\BF2\IO\Console\Console.cpp
+Line: 1407
+
+Expression: 0
+Text: Unknown object or method!: hudManager.setMouseTextureCancel	Ingame/GeneralIcons/crosshair_cancel.tga  (Menu/HUD/HudSetup/GeneralHudSettings.con)
+
+Current confile:Menu/HUD/HudSetup/GeneralHudSettings.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: SquadLeaderRequest4Invalid
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsSquadLeaderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: OrderMenuButtonList2
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsSquadLeaderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: SquadLeaderInvalidVehicleDropIcon
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsSquadLeaderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: SquadLeaderMenuIconList2
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsSquadLeaderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2268
+
+Text: Failed setting RGB variable on node: SquadLeaderVehicleDropText
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsSquadLeaderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: OrderInvalidVehicleDrop
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsCommanderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: CommanderMenuButtonList2
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsCommanderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: CommanderInvalidVehicleDropIcon
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsCommanderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: CommanderMenuIconList2
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsCommanderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2268
+
+Text: Failed setting RGB variable on node: CommanderVehicleDropText
+
+Current confile:Menu/HUD/HudSetup/SpawnInterface/HudElementsCommanderMenu.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: SquadRightInvalid
+
+Current confile:Menu/HUD/HudSetup/Communication/HudElementsSquadComm.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: SquadRightLabel2
+
+Current confile:Menu/HUD/HudSetup/Communication/HudElementsSquadComm.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: SquadLeaderDownLeftInvalid
+
+Current confile:Menu/HUD/HudSetup/Communication/HudElementsSquadLeaderComm.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: SquadLeaderDownLeftLabel2
+
+Current confile:Menu/HUD/HudSetup/Communication/HudElementsSquadLeaderComm.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: CommanderInvalidRight
+
+Current confile:Menu/HUD/HudSetup/Communication/HudElementsCommanderComm.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Module: Menu
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Menu\Bf2HudBuilder.cpp
+Line: 2040
+
+Text: Failed setting logical cull on node: CommanderRightLabel2
+
+Current confile:Menu/HUD/HudSetup/Communication/HudElementsCommanderComm.con
+Registrating event 1 as ChallengeEvent
+Registrating event 2 as ChallengeResponseEvent
+Registrating event 3 as ConnectionTypeEvent
+Registrating event 4 as DataBlockEvent
+Registrating event 5 as CreatePlayerEvent
+Registrating event 6 as CreateObjectEvent
+Registrating event 31 as CreateKitEvent
+Registrating event 7 as DestroyObjectEvent
+Registrating event 8 as DestroyPlayerEvent
+Registrating event 9 as EnterVehicleEvent
+Registrating event 10 as ExitVehicleEvent
+Registrating event 11 as PostRemoteEvent
+Registrating event 12 as ChangePlayerNameEvent
+Registrating event 14 as HandlePickupEvent
+Registrating event 13 as HandleDropEvent
+Registrating event 15 as StringBlockEvent
+Registrating event 16 as JoinSquadEvent
+Registrating event 17 as LeaveSquadEvent
+Registrating event 19 as CommanderEvent
+Registrating event 20 as RadioMessageEvent
+Registrating event 21 as KilledByEvent
+Registrating event 22 as ChangeSquadNameEvent
+Registrating event 23 as SetPrivateSquadEvent
+Registrating event 24 as IssueSquadOrderEvent
+Registrating event 25 as InviteEvent
+Registrating event 26 as RankEvent
+Registrating event 55 as KickBanEvent
+Registrating event 27 as SetAcceptOrderEvent
+Registrating event 28 as SetSquadLeaderEvent
+Registrating event 29 as SpottedEvent
+Registrating event 30 as ArtilleryEvent
+Registrating event 32 as StickyProjectileEvent
+Registrating event 34 as AmbientEffectAreaEvent
+Registrating event 35 as VoipOnOffEvent
+Registrating event 36 as CommanderCamEvent
+Registrating event 37 as SupplyDropEvent
+Registrating event 38 as VoipPlayerMuteEvent
+Registrating event 39 as VoteEvent
+Registrating event 47 as TargetDirectionEvent
+Registrating event 56 as BeginRoundEvent
+Registrating event 48 as EndOfRoundEvent
+Registrating event 49 as PythonCommandEvent
+Registrating event 50 as RequestEvent
+Registrating event 54 as VoipSessionEvent
+Registrating event 40 as ToggleFreeCameraEvent
+Registrating event 41 as MedalEvent
+Registrating event 42 as UnlockEvent
+Registrating event 43 as MissileInitEvent
+Registrating event 45 as UAVEvent
+Registrating event 46 as ContentCheckEvent
+Registrating event 51 as DropVehicleEvent
+Registrating event 57 as CreateSpawnGroupEvent
+Registrating event 58 as RemoveSpawnGroupEvent
+Registrating event 59 as UpdateTriggerEvent
+Registrating event 60 as GrapplingHookContainerCreateEvent
+Registrating event 61 as GrapplingHookContainerUpdateEvent
+Registrating event 62 as GrapplingHookContainerDetachEvent
+Registrating event 63 as GrapplingHookCreateEvent
+Registrating event 64 as GrapplingHookUpdateEvent
+Registrating event 65 as PlayerTearGassedEvent
+Registrating event 66 as SetNightVisionEvent
+Registrating event 68 as VerifyPlayerTeamEvent
+Registrating event 69 as FixPlayerTeamEvent
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Wind
+Module: Console
+File: D:\DiceCanada\BoosterPack2\Code\BF2\IO\Console\Console.cpp
+Line: 1407
+
+Expression: 0
+Text: Unknown object or method!: sv.bandwidthChoke 0  (@HOME@/Profiles/Default/ServerSettings.con)
+
+Current confile:@HOME@/Profiles/Default/ServerSettings.con
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: usrif_mp5_a3_Projectile
+ObjectTemplate Last modified by user: nfe
+Active geom template: usrif_mp5_a3
+Module: Base
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Scene\Object\ObjectTypes\Base\ObjectTemplate.cpp
+Line: 190
+
+Expression: mComponentMap[id].get() == 0
+Text: setComponent() called twice for same interfaceID
+
+Current confile:Objects/weapons/handheld/usrif_mp5_a3/usrif_mp5_a3.tweak
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: usrif_mp5_a3_Projectile
+ObjectTemplate Last modified by user: nfe
+Active geom template: usrif_mp5_a3
+Module: Base
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Scene\Object\ObjectTypes\Base\ObjectTemplate.cpp
+Line: 190
+
+Expression: mComponentMap[id].get() == 0
+Text: setComponent() called twice for same interfaceID
+
+Current confile:Objects/weapons/handheld/usrif_mp5_a3/usrif_mp5_a3.tweak
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: usrif_mp5_a3_Projectile
+ObjectTemplate Last modified by user: nfe
+Active geom template: usrif_mp5_a3
+Module: Base
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Scene\Object\ObjectTypes\Base\ObjectTemplate.cpp
+Line: 190
+
+Expression: mComponentMap[id].get() == 0
+Text: setComponent() called twice for same interfaceID
+
+Current confile:Objects/weapons/handheld/usrif_mp5_a3/usrif_mp5_a3.tweak
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: usrif_mp5_a3_Projectile
+ObjectTemplate Last modified by user: nfe
+Active geom template: usrif_mp5_a3
+Module: Base
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Scene\Object\ObjectTypes\Base\ObjectTemplate.cpp
+Line: 190
+
+Expression: mComponentMap[id].get() == 0
+Text: setComponent() called twice for same interfaceID
+
+Current confile:Objects/weapons/handheld/usrif_mp5_a3/usrif_mp5_a3.tweak
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: usrif_mp5_a3_Projectile
+ObjectTemplate Last modified by user: nfe
+Active geom template: usrif_mp5_a3
+Module: Base
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Scene\Object\ObjectTypes\Base\ObjectTemplate.cpp
+Line: 190
+
+Expression: mComponentMap[id].get() == 0
+Text: setComponent() called twice for same interfaceID
+
+Current confile:Objects/weapons/handheld/usrif_mp5_a3/usrif_mp5_a3.tweak
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: me_pinebush02
+Module: SoundEngine
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Sound\SoundEngine\SoundFile.cpp
+Line: 316
+
+Text: Failed to open/parse common/sound/norwegian/commander/filter/commsl_uav_trailerrepaired.ogg.
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: me_pinebush02
+Module: SoundEngine
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Sound\SoundEngine\SoundFile.cpp
+Line: 316
+
+Text: Failed to open/parse common/sound/norwegian/commander/filter/player_tactics_c_bailout.ogg.
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: me_pinebush02
+Module: SoundEngine
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Sound\SoundEngine\SoundFile.cpp
+Line: 316
+
+Text: Failed to open/parse common/sound/norwegian/commander/filter/player_tactics_c_followme.ogg.
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: me_pinebush02
+Module: SoundEngine
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Sound\SoundEngine\SoundFile.cpp
+Line: 316
+
+Text: Failed to open/parse common/sound/norwegian/grunt/no_filter/player_spotted_tm_destroyedbridge.ogg.
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: adjTempTemplate
+Module: Physics
+File: D:\DiceCanada\BoosterPack2\Code\BF2\Physics\CollisionManager.cpp
+Line: 517
+
+Expression: collisionMeshTempl->verify() == true
+Text: CollisionMesh error in part 0: No LOD 0 found. Name = Objects/staticobjects/_middle-east/city/city_architecture/house_high_04_collision/Meshes/house_high_04_collision.collisionMesh
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: wrench
+Module: RendDX9
+File: D:\DiceCanada\BoosterPack2\Code\BF2\RendDX9\TextureManager.cpp
+Line: 935
+
+Expression: ImgInfo.Format == D3DFMT_P8
+Text: Unsupported targa format. Only P8 supported, texture:menu/nametag/nor/minimap_cp
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: wrench
+Module: RendDX9
+File: D:\DiceCanada\BoosterPack2\Code\BF2\RendDX9\TextureManager.cpp
+Line: 827
+
+Expression: iSize == iRead
+Text: Failed to read texture data. Tex: menu/nametag/nor/minimap_cp.dds
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: wrench
+Module: RendDX9
+File: D:\DiceCanada\BoosterPack2\Code\BF2\RendDX9\TextureManager.cpp
+Line: 935
+
+Expression: ImgInfo.Format == D3DFMT_P8
+Text: Unsupported targa format. Only P8 supported, texture:menu/nametag/nor/minimap_cpbase
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active object template: S_Game_taunt_1
+Active geom template: wrench
+Module: RendDX9
+File: D:\DiceCanada\BoosterPack2\Code\BF2\RendDX9\TextureManager.cpp
+Line: 827
+
+Expression: iSize == iRead
+Text: Failed to read texture data. Tex: menu/nametag/nor/minimap_cpbase.dds
+
+Current confile:
+Loading time: 0.343509 minutes.
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 89
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 89
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 89
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 89
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 87
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 88
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 88
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: NavMesh
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\NavMesh\QTSearchNodeManager.cpp
+Line: 150
+
+Expression: m_nodeCacheSize == 0
+Text: 88
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 20
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 19
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 19
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 19
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 19
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 19
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 19
+
+Current confile:
+Debug assertion failed!
+
+Version: 1.1.2878-710.0 Build date:2014-4-4 11:23
+Active geom template: wrench
+Module: Cluster
+File: D:\DiceCanada\BoosterPack2\Code\BF2\AI\AIDLL\AI\AIPathFinding\Cluster\ClusterNodeManager.cpp
+Line: 112
+
+Expression: m_nodeCacheSize == 0
+Text: 19
+
+Current confile:
