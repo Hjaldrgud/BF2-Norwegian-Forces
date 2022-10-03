@@ -1,3 +1,5 @@
+fileManager.mountArchive Objects_client_nor_skins.zip 		Objects
+
 fileManager.mountArchive Objects_client.zip 				Objects
 fileManager.mountArchive Common_client.zip 					Common
 fileManager.mountArchive Menu_client.zip 					Menu
