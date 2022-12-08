@@ -1,0 +1,315 @@
+
+Summary
+Time spent per complete scope profiler start/stop (microsecs): 0
+Time spent per profiler start/stop (microsecs): 0.620188
+------------------
+PageFaults total: : 146353
+PageFaults/Sec:   : 6682.27
+Frames:           : 1
+NumTicksPerFrame: : 0
+Seconds:          : 21.9017
+------------------
+Average fps:      : 0.0456586
+Min     fps:      : 0.0456586
+Max     fps:      : 0.653793
+------------------
+Average ms/frame: : 21901.7
+Min     ms/frame: : 1529.54
+Max     ms/frame: : 21901.7
+------------------
+- BF2Engine -
+Command line: +ignoreAsserts 1 +modPath mods/norfor_git +fullscreen 0 +szx 1333 +szy 1000
+- Sound -
+Initialized: Yes
+Provider: Software Audio + EAX (DirectSound)
+MaxVoices: 36
+Quality: 0
+- BSP -
+Returned Faces:: 0.000000, [0.000000, 0.000000]
+Visited Nodes:: 0.000000, [0.000000, 0.000000]
+Ray Visited Nodes:: 0.000000, [0.000000, 0.000000]
+Ray Tested Faces:: 0.000000, [0.000000, 0.000000]
+Mem: Total:: 0.000000, [0.000000, 0.000000]
+BspNode::Face Mem: Total:: 0.000000, [0.000000, 0.000000]
+- BF2Render -
+Terrain: Medium
+Geometry: Medium
+Lighting: Medium
+DynamicLighting: Medium
+DynamicShadows: Medium
+Effects: Medium
+Texture: High
+TextureFiltering: Medium
+
+Profile per Frame
+0   Global Timer                        PF:146353 {0.0000 ms/tick 0.00 c/tick} {21901.6855 ms/f 1.00 c/f} 21901.6855469 ms/call [1529.5370, 21901.6855] guardTime 0.0 ms 0.00% (100.00%) MEM/f alloc 59459568.0 (51316840.0), calls 132530.0 (105083.0) 
+18  | initRenderer                        PF:129391 {0.0000 ms/tick 0.00 c/tick} {21047.9395 ms/f 1.00 c/f} 21047.9394531 ms/call [1529.5370, 21047.9395] guardTime 0.0 ms 96.10% (96.10%) MEM/f alloc 10569383.0 (4286065.0), calls 68828.0 (51613.0) 
+42  | | initHudManager                      PF:5806 {0.0000 ms/tick 0.00 c/tick} {7758.5552 ms/f 1.00 c/f} 7758.5551758 ms/call [1529.5370, 7758.5552] guardTime 0.0 ms 36.86% (35.42%) MEM/f alloc 5004467.0 (2186221.0), calls 49119.0 (46503.0) 
+7   | | | OldConsole_run                      PF:2669 {0.0000 ms/tick 0.00 c/tick} {7643.0835 ms/f 3.00 c/f} 2547.6945801 ms/call [0.1930, 2547.6946] guardTime 0.0 ms 98.51% (34.90%) MEM/f alloc 4590372.0 (1977181.0), calls 45874.0 (43693.0) 
+10  | | | | OldConsole_handleCommand            PF:2669 {0.0000 ms/tick 0.00 c/tick} {7642.2588 ms/f 49.00 c/f} 155.9644623 ms/call [0.0122, 246.3802] guardTime 0.0 ms 99.99% (34.89%) MEM/f alloc 4576388.0 (1970665.0), calls 45829.0 (43690.0) 
+7   | | | | | OldConsole_run                      PF:2641 {0.0000 ms/tick 0.00 c/tick} {7634.3228 ms/f 13.00 c/f} 587.2556152 ms/call [2.8628, 587.2556] guardTime 0.0 ms 99.90% (34.86%) MEM/f alloc 4394812.0 (1947673.0), calls 45483.0 (43507.0) 
+10  | | | | | | OldConsole_handleCommand            PF:2623 {0.0000 ms/tick 0.00 c/tick} {7626.8623 ms/f 726.00 c/f} 10.5053196 ms/call [0.0029, 19.8745] guardTime 0.0 ms 99.90% (34.82%) MEM/f alloc 4112186.0 (1934557.0), calls 45287.0 (43499.0) 
+7   | | | | | | | OldConsole_run                      PF:2303 {0.0000 ms/tick 0.00 c/tick} {7544.5459 ms/f 74.00 c/f} 101.9533234 ms/call [0.3557, 135.2840] guardTime 0.0 ms 98.92% (34.45%) MEM/f alloc 3502921.0 (1646704.0), calls 38110.0 (36467.0) 
+10  | | | | | | | | OldConsole_handleCommand            PF:1813 {0.0000 ms/tick 0.00 c/tick} {7483.3887 ms/f 7706.00 c/f} 0.9711120 ms/call [0.0025, 1.8430] guardTime 0.0 ms 99.19% (34.17%) MEM/f alloc 2472238.0 (1637976.0), calls 37074.0 (36462.0) 
+22  | | | | | | | | | ZipArchive_open                     PF:144 {0.0000 ms/tick 0.00 c/tick} {3.5725 ms/f 43.00 c/f} 0.0830812 ms/call [0.0028, 0.0765] guardTime 0.0 ms 0.05% (0.02%) MEM/f alloc 486864.0 (486072.0), calls 98.0 (65.0) 
+23  | | | | | | | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {1.9973 ms/f 32.00 c/f} 0.0624163 ms/call [0.0065, 0.0609] guardTime 0.0 ms 55.91% (0.01%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | | | | | | | ZipArchive_open                                    55.00% (sum)
+
+11  | | | | | | | | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {2.9178 ms/f 99.00 c/f} 0.0294725 ms/call [0.0120, 0.0319] guardTime 0.0 ms 0.04% (0.01%) MEM/f alloc 6678.0 (0.0), calls 99.0 (0.0) 
+43  | | | | | | | | | Win32FileSystem_getFileInfo         PF:0 {0.0000 ms/tick 0.00 c/tick} {2.6715 ms/f 48.00 c/f} 0.0556558 ms/call [0.0295, 0.0604] guardTime 0.0 ms 0.04% (0.01%) MEM/f alloc 4732.0 (2172.0), calls 65.0 (1.0) 
+11  | | | | | | | | | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {2.5832 ms/f 48.00 c/f} 0.0538170 ms/call [0.0276, 0.0585] guardTime 0.0 ms 96.70% (0.01%) MEM/f alloc 2560.0 (0.0), calls 64.0 (0.0) 
+43  | | | | | | | | | Win32FileSystem_getFileInfo                        96.00% (sum)
+
+44  | | | | | | | | | Win32FileSystem_write               PF:0 {0.0000 ms/tick 0.00 c/tick} {2.2364 ms/f 32.00 c/f} 0.0698874 ms/call [0.0055, 0.0719] guardTime 0.0 ms 0.03% (0.01%) MEM/f alloc 30780.0 (0.0), calls 32.0 (0.0) 
+26  | | | | | | | | | Win32FileSystem_addListener         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.3238 ms/f 17.00 c/f} 0.0190476 ms/call [0.0155, 0.0190] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 1088.0 (0.0), calls 17.0 (0.0) 
+45  | | | | | | | | | SafeDisc_Decode                     PF:9 {0.0000 ms/tick 0.00 c/tick} {0.1691 ms/f 408.00 c/f} 0.0004145 ms/call [0.0003, 0.0005] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+46  | | | | | | | | | SafeDisc_Encode                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0410 ms/f 108.00 c/f} 0.0003798 ms/call [0.0003, 0.0004] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+10  | | | | | | | | OldConsole_handleCommand                           0.00% (sum)
+
+22  | | | | | | | | ZipArchive_open                     PF:324 {0.0000 ms/tick 0.00 c/tick} {6.9093 ms/f 150.00 c/f} 0.0460620 ms/call [0.0027, 0.0465] guardTime 0.0 ms 0.09% (0.03%) MEM/f alloc 484474.0 (482722.0), calls 220.0 (147.0) 
+23  | | | | | | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {2.1475 ms/f 73.00 c/f} 0.0294183 ms/call [0.0065, 0.0256] guardTime 0.0 ms 31.08% (0.01%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | | | | | | ZipArchive_open                                    31.00% (sum)
+
+3   | | | | | | | | Win32FileSystem_open                PF:1 {0.0000 ms/tick 0.00 c/tick} {0.5698 ms/f 3.00 c/f} 0.1899290 ms/call [0.0331, 0.1899] guardTime 0.0 ms 0.01% (0.00%) MEM/f alloc 205.0 (0.0), calls 3.0 (0.0) 
+7   | | | | | | | OldConsole_run                                     99.00% (sum)
+
+22  | | | | | | | ZipArchive_open                     PF:8 {0.0000 ms/tick 0.00 c/tick} {1.2770 ms/f 10.00 c/f} 0.1277004 ms/call [0.0659, 0.1277] guardTime 0.0 ms 0.02% (0.01%) MEM/f alloc 195174.0 (194934.0), calls 31.0 (21.0) 
+23  | | | | | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.8152 ms/f 10.00 c/f} 0.0815227 ms/call [0.0359, 0.0815] guardTime 0.0 ms 63.84% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | | | | | ZipArchive_open                                    63.00% (sum)
+
+11  | | | | | | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {0.9066 ms/f 27.00 c/f} 0.0335789 ms/call [0.0118, 0.0336] guardTime 0.0 ms 0.01% (0.00%) MEM/f alloc 1806.0 (0.0), calls 27.0 (0.0) 
+26  | | | | | | | Win32FileSystem_addListener         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1020 ms/f 5.00 c/f} 0.0204004 ms/call [0.0163, 0.0204] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 320.0 (0.0), calls 5.0 (0.0) 
+10  | | | | | | OldConsole_handleCommand                           98.00% (sum)
+
+22  | | | | | | ZipArchive_open                     PF:17 {0.0000 ms/tick 0.00 c/tick} {0.8555 ms/f 24.00 c/f} 0.0356443 ms/call [0.0029, 0.0356] guardTime 0.0 ms 0.01% (0.00%) MEM/f alloc 44176.0 (43864.0), calls 40.0 (27.0) 
+23  | | | | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.2489 ms/f 13.00 c/f} 0.0191424 ms/call [0.0065, 0.0191] guardTime 0.0 ms 29.09% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | | | | ZipArchive_open                                    29.00% (sum)
+
+44  | | | | | | Win32FileSystem_write               PF:0 {0.0000 ms/tick 0.00 c/tick} {0.2053 ms/f 2.00 c/f} 0.1026514 ms/call [0.0328, 0.1027] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 175280.0 (0.0), calls 2.0 (0.0) 
+43  | | | | | | Win32FileSystem_getFileInfo         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1347 ms/f 3.00 c/f} 0.0448955 ms/call [0.0339, 0.0449] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 2332.0 (2172.0), calls 5.0 (1.0) 
+11  | | | | | | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1249 ms/f 3.00 c/f} 0.0416488 ms/call [0.0312, 0.0416] guardTime 0.0 ms 92.77% (0.00%) MEM/f alloc 160.0 (0.0), calls 4.0 (0.0) 
+43  | | | | | | Win32FileSystem_getFileInfo                        92.00% (sum)
+
+7   | | | | | OldConsole_run                                     99.00% (sum)
+
+22  | | | | | ZipArchive_open                     PF:0 {0.0000 ms/tick 0.00 c/tick} {1.4982 ms/f 108.00 c/f} 0.0138722 ms/call [0.0019, 0.0147] guardTime 0.0 ms 0.02% (0.01%) MEM/f alloc 153372.0 (152940.0), calls 55.0 (37.0) 
+23  | | | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.4533 ms/f 18.00 c/f} 0.0251861 ms/call [0.0070, 0.0252] guardTime 0.0 ms 30.26% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | | | ZipArchive_open                                    30.00% (sum)
+
+11  | | | | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {1.4607 ms/f 54.00 c/f} 0.0270491 ms/call [0.0196, 0.0289] guardTime 0.0 ms 0.02% (0.01%) MEM/f alloc 2196.0 (0.0), calls 54.0 (0.0) 
+26  | | | | | Win32FileSystem_addListener         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.3009 ms/f 18.00 c/f} 0.0167173 ms/call [0.0142, 0.0167] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 1152.0 (0.0), calls 18.0 (0.0) 
+10  | | | | OldConsole_handleCommand                           99.00% (sum)
+
+22  | | | | ZipArchive_open                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1983 ms/f 4.00 c/f} 0.0495764 ms/call [0.0028, 0.0496] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 4745.0 (4673.0), calls 10.0 (7.0) 
+23  | | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0347 ms/f 3.00 c/f} 0.0115682 ms/call [0.0062, 0.0116] guardTime 0.0 ms 17.50% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | | ZipArchive_open                                    17.00% (sum)
+
+7   | | | OldConsole_run                                     99.00% (sum)
+
+11  | | | Win32FileSystem_findFileOnDisc      PF:2 {0.0000 ms/tick 0.00 c/tick} {2.9722 ms/f 48.00 c/f} 0.0619216 ms/call [0.0163, 0.0567] guardTime 0.0 ms 0.04% (0.01%) MEM/f alloc 2654.0 (0.0), calls 48.0 (0.0) 
+22  | | | ZipArchive_open                     PF:20 {0.0000 ms/tick 0.00 c/tick} {1.2348 ms/f 40.00 c/f} 0.0308707 ms/call [0.0008, 0.0330] guardTime 0.0 ms 0.02% (0.01%) MEM/f alloc 27810.0 (27450.0), calls 38.0 (23.0) 
+23  | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1323 ms/f 11.00 c/f} 0.0120283 ms/call [0.0034, 0.0120] guardTime 0.0 ms 10.71% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | ZipArchive_open                                    10.00% (sum)
+
+26  | | | Win32FileSystem_addListener         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1018 ms/f 3.00 c/f} 0.0339286 ms/call [0.0217, 0.0339] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 192.0 (0.0), calls 3.0 (0.0) 
+42  | | initHudManager                                     98.00% (sum)
+
+11  | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {1827.7938 ms/f 33.00 c/f} 55.3876915 ms/call [0.0207, 58.9596] guardTime 0.0 ms 8.68% (8.35%) MEM/f alloc 2913.0 (0.0), calls 37.0 (0.0) 
+19  | | Sound_Initialize                    PF:1555 {0.0000 ms/tick 0.00 c/tick} {78.4983 ms/f 1.00 c/f} 78.4983292 ms/call [78.4983, 78.4983] guardTime 0.0 ms 0.37% (0.36%) MEM/f alloc 5356.0 (4664.0), calls 16.0 (9.0) 
+20  | | | sound_internalUnloadSoundFiles      PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0005 ms/f 1.00 c/f} 0.0005231 ms/call [0.0005, 0.0005] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+21  | | | sound_internalLoadSoundFiles        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0005 ms/f 1.00 c/f} 0.0004900 ms/call [0.0005, 0.0005] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+19  | | Sound_Initialize                                   0.00% (sum)
+
+33  | | BF2Render_InitRenderPath            PF:6521 {0.0000 ms/tick 0.00 c/tick} {34.0252 ms/f 1.00 c/f} 34.0252151 ms/call [34.0252, 34.0252] guardTime 0.0 ms 0.16% (0.16%) MEM/f alloc 74760.0 (46112.0), calls 254.0 (174.0) 
+35  | | | NametagRenderer_pathInit            PF:2464 {0.0000 ms/tick 0.00 c/tick} {29.7461 ms/f 3.00 c/f} 9.9153700 ms/call [0.0979, 9.9154] guardTime 0.0 ms 87.42% (0.14%) MEM/f alloc 55411.0 (30792.0), calls 191.0 (130.0) 
+24  | | | | effect_setD3DXEffect                PF:1693 {0.0000 ms/tick 0.00 c/tick} {3.4804 ms/f 1.00 c/f} 3.4803827 ms/call [3.4804, 3.4804] guardTime 0.0 ms 11.70% (0.02%) MEM/f alloc 7240.0 (6352.0), calls 91.0 (69.0) 
+25  | | | | | effect_enumerateTechniques          PF:1693 {0.0000 ms/tick 0.00 c/tick} {3.3817 ms/f 1.00 c/f} 3.3817220 ms/call [3.3817, 3.3817] guardTime 0.0 ms 97.17% (0.02%) MEM/f alloc 1628.0 (740.0), calls 30.0 (8.0) 
+24  | | | | effect_setD3DXEffect                               97.00% (sum)
+
+11  | | | | Win32FileSystem_findFileOnDisc      PF:6 {0.0000 ms/tick 0.00 c/tick} {0.4238 ms/f 9.00 c/f} 0.0470876 ms/call [0.0276, 0.0471] guardTime 0.0 ms 1.42% (0.00%) MEM/f alloc 366.0 (0.0), calls 9.0 (0.0) 
+22  | | | | ZipArchive_open                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1737 ms/f 2.00 c/f} 0.0868525 ms/call [0.0843, 0.0869] guardTime 0.0 ms 0.58% (0.00%) MEM/f alloc 12890.0 (12842.0), calls 7.0 (5.0) 
+23  | | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0754 ms/f 2.00 c/f} 0.0377138 ms/call [0.0313, 0.0377] guardTime 0.0 ms 43.42% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | | ZipArchive_open                                    43.00% (sum)
+
+26  | | | | Win32FileSystem_addListener         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0471 ms/f 1.00 c/f} 0.0471421 ms/call [0.0471, 0.0471] guardTime 0.0 ms 0.16% (0.00%) MEM/f alloc 64.0 (0.0), calls 1.0 (0.0) 
+27  | | | | effect_getParameterBySemanticAddRef PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0123 ms/f 6.00 c/f} 0.0020456 ms/call [0.0012, 0.0020] guardTime 0.0 ms 0.04% (0.00%) MEM/f alloc 2172.0 (2172.0), calls 1.0 (1.0) 
+28  | | | | | effect_getParameterBySemantic       PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0042 ms/f 6.00 c/f} 0.0006919 ms/call [0.0006, 0.0007] guardTime 0.0 ms 33.82% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+27  | | | | effect_getParameterBySemanticAddRef                33.00% (sum)
+
+35  | | | NametagRenderer_pathInit                           13.00% (sum)
+
+11  | | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {0.4138 ms/f 9.00 c/f} 0.0459775 ms/call [0.0220, 0.0460] guardTime 0.0 ms 1.22% (0.00%) MEM/f alloc 366.0 (0.0), calls 9.0 (0.0) 
+22  | | | ZipArchive_open                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1233 ms/f 1.00 c/f} 0.1233204 ms/call [0.1233, 0.1233] guardTime 0.0 ms 0.36% (0.00%) MEM/f alloc 4687.0 (4663.0), calls 4.0 (3.0) 
+23  | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0320 ms/f 1.00 c/f} 0.0319806 ms/call [0.0320, 0.0320] guardTime 0.0 ms 25.93% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | ZipArchive_open                                    25.00% (sum)
+
+34  | | | statemanager_applyRTAndDepth        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0039 ms/f 3.00 c/f} 0.0013017 ms/call [0.0006, 0.0013] guardTime 0.0 ms 0.01% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+33  | | BF2Render_InitRenderPath                           89.00% (sum)
+
+24  | | effect_setD3DXEffect                PF:563 {0.0000 ms/tick 0.00 c/tick} {33.1175 ms/f 17.00 c/f} 1.9480901 ms/call [0.3896, 1.9481] guardTime 0.0 ms 0.16% (0.15%) MEM/f alloc 65592.0 (61432.0), calls 1061.0 (956.0) 
+25  | | | effect_enumerateTechniques          PF:557 {0.0000 ms/tick 0.00 c/tick} {32.1634 ms/f 17.00 c/f} 1.8919644 ms/call [0.3347, 1.8920] guardTime 0.0 ms 97.12% (0.15%) MEM/f alloc 15260.0 (11100.0), calls 220.0 (115.0) 
+24  | | effect_setD3DXEffect                               97.00% (sum)
+
+3   | | Win32FileSystem_open                PF:32 {0.0000 ms/tick 0.00 c/tick} {29.1582 ms/f 255.00 c/f} 0.1143460 ms/call [0.0128, 0.2074] guardTime 0.0 ms 0.14% (0.13%) MEM/f alloc 30396.0 (2172.0), calls 256.0 (1.0) 
+4   | | | Win32FileSystem_createDirectory     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1144 ms/f 1.00 c/f} 0.1144405 ms/call [0.1144, 0.1144] guardTime 0.0 ms 0.39% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+3   | | Win32FileSystem_open                               0.00% (sum)
+
+7   | | OldConsole_run                      PF:44 {0.0000 ms/tick 0.00 c/tick} {24.2570 ms/f 1.00 c/f} 24.2570305 ms/call [24.2570, 24.2570] guardTime 0.0 ms 0.12% (0.11%) MEM/f alloc 65517.0 (44808.0), calls 484.0 (467.0) 
+10  | | | OldConsole_handleCommand            PF:35 {0.0000 ms/tick 0.00 c/tick} {20.0769 ms/f 251.00 c/f} 0.0799876 ms/call [0.0241, 0.0858] guardTime 0.0 ms 82.77% (0.09%) MEM/f alloc 36120.0 (36120.0), calls 463.0 (463.0) 
+3   | | | Win32FileSystem_open                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1357 ms/f 2.00 c/f} 0.0678254 ms/call [0.0438, 0.0678] guardTime 0.0 ms 0.56% (0.00%) MEM/f alloc 93.0 (0.0), calls 2.0 (0.0) 
+9   | | | Win32FileSystem_read                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0379 ms/f 1.00 c/f} 0.0379392 ms/call [0.0379, 0.0379] guardTime 0.0 ms 0.16% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+5   | | | Win32FileSystem_getSize             PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0039 ms/f 2.00 c/f} 0.0019640 ms/call [0.0003, 0.0020] guardTime 0.0 ms 0.02% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+7   | | OldConsole_run                                     83.00% (sum)
+
+5   | | Win32FileSystem_getSize             PF:1 {0.0000 ms/tick 0.00 c/tick} {7.8536 ms/f 23851.00 c/f} 0.0003293 ms/call [0.0003, 0.0003] guardTime 0.0 ms 0.04% (0.04%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+15  | | Win32FileSystem_getPosition         PF:6 {0.0000 ms/tick 0.00 c/tick} {7.4440 ms/f 23595.00 c/f} 0.0003155 ms/call [0.0003, 0.0003] guardTime 0.0 ms 0.04% (0.03%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | ZipArchive_open                     PF:152 {0.0000 ms/tick 0.00 c/tick} {5.7968 ms/f 121.00 c/f} 0.0479071 ms/call [0.0026, 0.0526] guardTime 0.0 ms 0.03% (0.03%) MEM/f alloc 393494.0 (392030.0), calls 178.0 (117.0) 
+23  | | | ZipArchive_read                     PF:51 {0.0000 ms/tick 0.00 c/tick} {2.0323 ms/f 58.00 c/f} 0.0350397 ms/call [0.0037, 0.0324] guardTime 0.0 ms 35.06% (0.01%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | ZipArchive_open                                    35.00% (sum)
+
+13  | | FileManager_findFiles_a             PF:30 {0.0000 ms/tick 0.00 c/tick} {2.5535 ms/f 9.00 c/f} 0.2837178 ms/call [0.1491, 0.2837] guardTime 0.0 ms 0.01% (0.01%) MEM/f alloc 154822.0 (9396.0), calls 616.0 (87.0) 
+14  | | | Win32FileSystem_findFiles           PF:14 {0.0000 ms/tick 0.00 c/tick} {1.5529 ms/f 27.00 c/f} 0.0575163 ms/call [0.0183, 0.0575] guardTime 0.0 ms 60.82% (0.01%) MEM/f alloc 31845.0 (7476.0), calls 421.0 (89.0) 
+13  | | FileManager_findFiles_a                            60.00% (sum)
+
+9   | | Win32FileSystem_read                PF:0 {0.0000 ms/tick 0.00 c/tick} {2.0398 ms/f 94.00 c/f} 0.0217004 ms/call [0.0025, 0.0232] guardTime 0.0 ms 0.01% (0.01%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+27  | | effect_getParameterBySemanticAddRef PF:5 {0.0000 ms/tick 0.00 c/tick} {1.1841 ms/f 174.00 c/f} 0.0068052 ms/call [0.0011, 0.0087] guardTime 0.0 ms 0.01% (0.01%) MEM/f alloc 4100.0 (4100.0), calls 48.0 (48.0) 
+28  | | | effect_getParameterBySemantic       PF:3 {0.0000 ms/tick 0.00 c/tick} {1.0594 ms/f 174.00 c/f} 0.0060884 ms/call [0.0004, 0.0080] guardTime 0.0 ms 89.47% (0.00%) MEM/f alloc 1928.0 (1928.0), calls 47.0 (47.0) 
+27  | | effect_getParameterBySemanticAddRef                89.00% (sum)
+
+10  | | OldConsole_handleCommand            PF:1 {0.0000 ms/tick 0.00 c/tick} {0.9056 ms/f 42.00 c/f} 0.0215611 ms/call [0.0101, 0.0191] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+26  | | Win32FileSystem_addListener         PF:4 {0.0000 ms/tick 0.00 c/tick} {0.8844 ms/f 17.00 c/f} 0.0520224 ms/call [0.0440, 0.0520] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 1088.0 (0.0), calls 17.0 (0.0) 
+36  | | BF2Render_InitConsoleOverlay        PF:17 {0.0000 ms/tick 0.00 c/tick} {0.8747 ms/f 1.00 c/f} 0.8746682 ms/call [0.8747, 0.8747] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 15065.0 (12428.0), calls 19.0 (13.0) 
+11  | | | Win32FileSystem_findFileOnDisc      PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1209 ms/f 3.00 c/f} 0.0403131 ms/call [0.0236, 0.0403] guardTime 0.0 ms 13.83% (0.00%) MEM/f alloc 122.0 (0.0), calls 3.0 (0.0) 
+22  | | | ZipArchive_open                     PF:16 {0.0000 ms/tick 0.00 c/tick} {0.0873 ms/f 1.00 c/f} 0.0873192 ms/call [0.0873, 0.0873] guardTime 0.0 ms 9.98% (0.00%) MEM/f alloc 4687.0 (4663.0), calls 4.0 (3.0) 
+23  | | | | ZipArchive_read                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0290 ms/f 1.00 c/f} 0.0290215 ms/call [0.0290, 0.0290] guardTime 0.0 ms 33.24% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  | | | ZipArchive_open                                    33.00% (sum)
+
+28  | | | effect_getParameterBySemantic       PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0013 ms/f 2.00 c/f} 0.0006745 ms/call [0.0004, 0.0007] guardTime 0.0 ms 0.15% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+36  | | BF2Render_InitConsoleOverlay                       23.00% (sum)
+
+37  | | BF2Render_CreateObjectDrawer        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1109 ms/f 1.00 c/f} 0.1108928 ms/call [0.1109, 0.1109] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 288.0 (288.0), calls 4.0 (4.0) 
+38  | | BF2Render_Optimize                  PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1047 ms/f 1.00 c/f} 0.1047287 ms/call [0.1047, 0.1047] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 792.0 (792.0), calls 4.0 (4.0) 
+30  | | NametagManager_ClearAll             PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0123 ms/f 1.00 c/f} 0.0122770 ms/call [0.0123, 0.0123] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 4160.0 (4160.0), calls 130.0 (130.0) 
+28  | | effect_getParameterBySemantic       PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0074 ms/f 11.00 c/f} 0.0006725 ms/call [0.0004, 0.0007] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+16  | | Win32FileSystem_seek                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0067 ms/f 2.00 c/f} 0.0033691 ms/call [0.0023, 0.0034] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+29  | | effect_setTechniqueByName           PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0061 ms/f 7.00 c/f} 0.0008725 ms/call [0.0004, 0.0009] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+39  | | BF2Render_DeleteOptimizers          PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0055 ms/f 1.00 c/f} 0.0055050 ms/call [0.0055, 0.0055] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (-792.0), calls 0.0 (-4.0) 
+40  | | statemanager_apply                  PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0050 ms/f 1.00 c/f} 0.0050324 ms/call [0.0050, 0.0050] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 2172.0 (2172.0), calls 1.0 (1.0) 
+34  | | | statemanager_applyRTAndDepth        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0004 ms/f 1.00 c/f} 0.0004209 ms/call [0.0004, 0.0004] guardTime 0.0 ms 8.36% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+40  | | statemanager_apply                                 8.00% (sum)
+
+34  | | statemanager_applyRTAndDepth        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0042 ms/f 3.00 c/f} 0.0014023 ms/call [0.0007, 0.0014] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+31  | | effect_queryTechniqueByName         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0027 ms/f 1.00 c/f} 0.0027147 ms/call [0.0027, 0.0027] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 2172.0 (2172.0), calls 1.0 (1.0) 
+29  | | | effect_setTechniqueByName           PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0009 ms/f 1.00 c/f} 0.0008786 ms/call [0.0009, 0.0009] guardTime 0.0 ms 32.36% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+31  | | effect_queryTechniqueByName                        32.00% (sum)
+
+32  | | BF2Render_InitRenderView            PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0016 ms/f 1.00 c/f} 0.0015734 ms/call [0.0016, 0.0016] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+41  | | initConsole                         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0005 ms/f 1.00 c/f} 0.0005353 ms/call [0.0005, 0.0005] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+18  | initRenderer                                       46.00% (sum)
+
+8   | setupArchives                       PF:6862 {0.0000 ms/tick 0.00 c/tick} {636.5668 ms/f 1.00 c/f} 636.5667725 ms/call [636.5668, 636.5668] guardTime 0.0 ms 2.91% (2.91%) MEM/f alloc 8697498.0 (8667336.0), calls 48357.0 (47936.0) 
+7   | | OldConsole_run                      PF:6861 {0.0000 ms/tick 0.00 c/tick} {636.5587 ms/f 2.00 c/f} 318.2793274 ms/call [243.5030, 318.2793] guardTime 0.0 ms 100.00% (2.91%) MEM/f alloc 8695326.0 (8665164.0), calls 48356.0 (47935.0) 
+10  | | | OldConsole_handleCommand            PF:6852 {0.0000 ms/tick 0.00 c/tick} {636.0649 ms/f 31.00 c/f} 20.5182228 ms/call [0.0799, 20.5182] guardTime 0.0 ms 99.92% (2.90%) MEM/f alloc 8682526.0 (8656476.0), calls 48324.0 (47931.0) 
+11  | | | | Win32FileSystem_findFileOnDisc      PF:289 {0.0000 ms/tick 0.00 c/tick} {3.0922 ms/f 83.00 c/f} 0.0372555 ms/call [0.0116, 0.0391] guardTime 0.0 ms 0.49% (0.01%) MEM/f alloc 8294.0 (0.0), calls 110.0 (0.0) 
+10  | | | OldConsole_handleCommand                           0.00% (sum)
+
+9   | | | Win32FileSystem_read                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0526 ms/f 2.00 c/f} 0.0263134 ms/call [0.0237, 0.0263] guardTime 0.0 ms 0.01% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+3   | | | Win32FileSystem_open                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0518 ms/f 2.00 c/f} 0.0258898 ms/call [0.0243, 0.0259] guardTime 0.0 ms 0.01% (0.00%) MEM/f alloc 94.0 (0.0), calls 2.0 (0.0) 
+5   | | | Win32FileSystem_getSize             PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0057 ms/f 4.00 c/f} 0.0014283 ms/call [0.0003, 0.0014] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+7   | | OldConsole_run                                     99.00% (sum)
+
+8   | setupArchives                                      99.00% (sum)
+
+12  | initLocalization                    PF:551 {0.0000 ms/tick 0.00 c/tick} {121.2528 ms/f 1.00 c/f} 121.2527542 ms/call [121.2528, 121.2528] guardTime 0.0 ms 0.55% (0.55%) MEM/f alloc 2169431.0 (345696.0), calls 14353.0 (4597.0) 
+5   | | Win32FileSystem_getSize             PF:0 {0.0000 ms/tick 0.00 c/tick} {15.0059 ms/f 47188.00 c/f} 0.0003180 ms/call [0.0003, 0.0003] guardTime 0.0 ms 12.38% (0.07%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+15  | | Win32FileSystem_getPosition         PF:0 {0.0000 ms/tick 0.00 c/tick} {14.7798 ms/f 47160.00 c/f} 0.0003134 ms/call [0.0003, 0.0003] guardTime 0.0 ms 12.19% (0.07%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+9   | | Win32FileSystem_read                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.6785 ms/f 28.00 c/f} 0.0242316 ms/call [0.0023, 0.0242] guardTime 0.0 ms 0.56% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+13  | | FileManager_findFiles_a             PF:8 {0.0000 ms/tick 0.00 c/tick} {0.6513 ms/f 2.00 c/f} 0.3256625 ms/call [0.3168, 0.3257] guardTime 0.0 ms 0.54% (0.00%) MEM/f alloc 43654.0 (3348.0), calls 236.0 (15.0) 
+14  | | | Win32FileSystem_findFiles           PF:3 {0.0000 ms/tick 0.00 c/tick} {0.4490 ms/f 6.00 c/f} 0.0748270 ms/call [0.0363, 0.0748] guardTime 0.0 ms 68.93% (0.00%) MEM/f alloc 15354.0 (2604.0), calls 203.0 (31.0) 
+13  | | FileManager_findFiles_a                            68.00% (sum)
+
+3   | | Win32FileSystem_open                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.6413 ms/f 18.00 c/f} 0.0356299 ms/call [0.0184, 0.0356] guardTime 0.0 ms 0.53% (0.00%) MEM/f alloc 1311.0 (0.0), calls 18.0 (0.0) 
+16  | | Win32FileSystem_seek                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0112 ms/f 4.00 c/f} 0.0028050 ms/call [0.0017, 0.0028] guardTime 0.0 ms 0.01% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+12  | initLocalization                                   26.00% (sum)
+
+17  | load_userSettingsConFile            PF:4 {0.0000 ms/tick 0.00 c/tick} {0.4717 ms/f 1.00 c/f} 0.4717160 ms/call [0.4717, 0.4717] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 12441.0 (10860.0), calls 19.0 (5.0) 
+7   | | OldConsole_run                      PF:4 {0.0000 ms/tick 0.00 c/tick} {0.4684 ms/f 1.00 c/f} 0.4683905 ms/call [0.4684, 0.4684] guardTime 0.0 ms 99.30% (0.00%) MEM/f alloc 10269.0 (8688.0), calls 18.0 (4.0) 
+10  | | | OldConsole_handleCommand            PF:4 {0.0000 ms/tick 0.00 c/tick} {0.2716 ms/f 12.00 c/f} 0.0226340 ms/call [0.0027, 0.0226] guardTime 0.0 ms 57.99% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+3   | | | Win32FileSystem_open                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0476 ms/f 1.00 c/f} 0.0476033 ms/call [0.0476, 0.0476] guardTime 0.0 ms 10.16% (0.00%) MEM/f alloc 54.0 (0.0), calls 1.0 (0.0) 
+9   | | | Win32FileSystem_read                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0389 ms/f 1.00 c/f} 0.0388527 ms/call [0.0389, 0.0389] guardTime 0.0 ms 8.29% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+5   | | | Win32FileSystem_getSize             PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0041 ms/f 2.00 c/f} 0.0020486 ms/call [0.0003, 0.0020] guardTime 0.0 ms 0.87% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+7   | | OldConsole_run                                     77.00% (sum)
+
+17  | load_userSettingsConFile                           99.00% (sum)
+
+3   | Win32FileSystem_open                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.2677 ms/f 2.00 c/f} 0.1338369 ms/call [0.1294, 0.1338] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 2314.0 (2172.0), calls 3.0 (1.0) 
+4   | | Win32FileSystem_createDirectory     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0649 ms/f 2.00 c/f} 0.0324729 ms/call [0.0289, 0.0325] guardTime 0.0 ms 24.26% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+3   | Win32FileSystem_open                               24.00% (sum)
+
+6   | load_debugSettingsConFile           PF:3 {0.0000 ms/tick 0.00 c/tick} {0.1918 ms/f 1.00 c/f} 0.1917897 ms/call [0.1918, 0.1918] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 5128.0 (4468.0), calls 14.0 (5.0) 
+7   | | OldConsole_run                      PF:1 {0.0000 ms/tick 0.00 c/tick} {0.1571 ms/f 1.00 c/f} 0.1571333 ms/call [0.1571, 0.1571] guardTime 0.0 ms 81.93% (0.00%) MEM/f alloc 2916.0 (2256.0), calls 12.0 (3.0) 
+3   | | | Win32FileSystem_open                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0809 ms/f 3.00 c/f} 0.0269630 ms/call [0.0128, 0.0270] guardTime 0.0 ms 51.48% (0.00%) MEM/f alloc 142.0 (0.0), calls 3.0 (0.0) 
+7   | | OldConsole_run                                     51.00% (sum)
+
+6   | load_debugSettingsConFile                          81.00% (sum)
+
+47  | initNetwork                         PF:3 {0.0000 ms/tick 0.00 c/tick} {0.1445 ms/f 1.00 c/f} 0.1445372 ms/call [0.1445, 0.1445] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 16884.0 (16884.0), calls 11.0 (11.0) 
+2   | initFileSystem                      PF:6 {0.0000 ms/tick 0.00 c/tick} {0.0189 ms/f 1.00 c/f} 0.0189479 ms/call [0.0189, 0.0189] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 352.0 (352.0), calls 7.0 (7.0) 
+5   | Win32FileSystem_getSize             PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0089 ms/f 4.00 c/f} 0.0022220 ms/call [0.0012, 0.0022] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+1   | profiler_calibration_timer          PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0034 ms/f 11.00 c/f} 0.0003123 ms/call [0.0003, 0.0003] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+0   Global Timer                                       99.00% (sum)
+
+
+Report per Timer
+0   Global Timer                        PF:146353 {0.0000 ms/tick 0.00 c/tick} {21901.6855 ms/f 1.00 c/f} 21901.6855469 ms/call [1529.5370, 21901.6855] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+1   profiler_calibration_timer          PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0034 ms/f 11.00 c/f} 0.0003123 ms/call [0.0003, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+2   initFileSystem                      PF:6 {0.0000 ms/tick 0.00 c/tick} {0.0189 ms/f 1.00 c/f} 0.0189479 ms/call [0.0189, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 352.0 (352.0), calls 7.0 (7.0) 
+3   Win32FileSystem_open                PF:33 {0.0000 ms/tick 0.00 c/tick} {30.9530 ms/f 286.00 c/f} 0.1082272 ms/call [0.0128, 0.2845] guardTime 0.0 ms 0.00% (0.14%) MEM/f alloc 34609.0 (4344.0), calls 288.0 (2.0) 
+4   Win32FileSystem_createDirectory     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1794 ms/f 3.00 c/f} 0.0597954 ms/call [0.0289, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+5   Win32FileSystem_getSize             PF:1 {0.0000 ms/tick 0.00 c/tick} {22.8821 ms/f 71051.00 c/f} 0.0003221 ms/call [0.0003, 0.0050] guardTime 0.0 ms 0.00% (0.10%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+6   load_debugSettingsConFile           PF:3 {0.0000 ms/tick 0.00 c/tick} {0.1918 ms/f 1.00 c/f} 0.1917897 ms/call [0.1918, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 5128.0 (4468.0), calls 14.0 (5.0) 
+7   OldConsole_run                      PF:14523 {0.0000 ms/tick 0.00 c/tick} {23483.3945 ms/f 95.00 c/f} 247.1936340 ms/call [0.1571, 0.0000] guardTime 0.0 ms 0.00% (107.22%) MEM/f alloc 21262132.0 (14292474.0), calls 178337.0 (172076.0) 
+8   setupArchives                       PF:6862 {0.0000 ms/tick 0.00 c/tick} {636.5668 ms/f 1.00 c/f} 636.5667725 ms/call [636.5668, 0.0000] guardTime 0.0 ms 0.00% (2.91%) MEM/f alloc 8697498.0 (8667336.0), calls 48357.0 (47936.0) 
+9   Win32FileSystem_read                PF:0 {0.0000 ms/tick 0.00 c/tick} {2.8477 ms/f 126.00 c/f} 0.0226012 ms/call [0.0023, 0.0000] guardTime 0.0 ms 0.00% (0.01%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+10  OldConsole_handleCommand            PF:13997 {0.0000 ms/tick 0.00 c/tick} {23409.8301 ms/f 8817.00 c/f} 2.6550789 ms/call [0.0025, 0.7190] guardTime 0.0 ms 0.00% (106.89%) MEM/f alloc 19879458.0 (14235794.0), calls 176977.0 (172045.0) 
+11  Win32FileSystem_findFileOnDisc      PF:297 {0.0000 ms/tick 0.00 c/tick} {1842.8101 ms/f 416.00 c/f} 4.4298320 ms/call [0.0116, 0.4596] guardTime 0.0 ms 0.00% (8.41%) MEM/f alloc 28115.0 (0.0), calls 464.0 (0.0) 
+12  initLocalization                    PF:551 {0.0000 ms/tick 0.00 c/tick} {121.2528 ms/f 1.00 c/f} 121.2527542 ms/call [121.2528, 0.0000] guardTime 0.0 ms 0.00% (0.55%) MEM/f alloc 2169431.0 (345696.0), calls 14353.0 (4597.0) 
+13  FileManager_findFiles_a             PF:38 {0.0000 ms/tick 0.00 c/tick} {3.2048 ms/f 11.00 c/f} 0.2913441 ms/call [0.1491, 0.0000] guardTime 0.0 ms 0.00% (0.01%) MEM/f alloc 198476.0 (12744.0), calls 852.0 (102.0) 
+14  Win32FileSystem_findFiles           PF:17 {0.0000 ms/tick 0.00 c/tick} {2.0019 ms/f 33.00 c/f} 0.0606637 ms/call [0.0183, 0.0000] guardTime 0.0 ms 0.00% (0.01%) MEM/f alloc 47199.0 (10080.0), calls 624.0 (120.0) 
+15  Win32FileSystem_getPosition         PF:6 {0.0000 ms/tick 0.00 c/tick} {22.2238 ms/f 70755.00 c/f} 0.0003141 ms/call [0.0003, 0.0003] guardTime 0.0 ms 0.00% (0.10%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+16  Win32FileSystem_seek                PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0180 ms/f 6.00 c/f} 0.0029930 ms/call [0.0017, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+17  load_userSettingsConFile            PF:4 {0.0000 ms/tick 0.00 c/tick} {0.4717 ms/f 1.00 c/f} 0.4717160 ms/call [0.4717, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 12441.0 (10860.0), calls 19.0 (5.0) 
+18  initRenderer                        PF:129391 {0.0000 ms/tick 0.00 c/tick} {21047.9395 ms/f 1.00 c/f} 21047.9394531 ms/call [1529.5370, 0.0000] guardTime 0.0 ms 0.00% (96.10%) MEM/f alloc 10569383.0 (4286065.0), calls 68828.0 (51613.0) 
+19  Sound_Initialize                    PF:1555 {0.0000 ms/tick 0.00 c/tick} {78.4983 ms/f 1.00 c/f} 78.4983292 ms/call [78.4983, 0.0000] guardTime 0.0 ms 0.00% (0.36%) MEM/f alloc 5356.0 (4664.0), calls 16.0 (9.0) 
+20  sound_internalUnloadSoundFiles      PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0005 ms/f 1.00 c/f} 0.0005231 ms/call [0.0005, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+21  sound_internalLoadSoundFiles        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0005 ms/f 1.00 c/f} 0.0004900 ms/call [0.0005, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+22  ZipArchive_open                     PF:681 {0.0000 ms/tick 0.00 c/tick} {21.7267 ms/f 504.00 c/f} 0.0431085 ms/call [0.0008, 0.1388] guardTime 0.0 ms 0.00% (0.10%) MEM/f alloc 1812373.0 (1806853.0), calls 685.0 (455.0) 
+23  ZipArchive_read                     PF:51 {0.0000 ms/tick 0.00 c/tick} {7.9980 ms/f 222.00 c/f} 0.0360272 ms/call [0.0034, 0.1271] guardTime 0.0 ms 0.00% (0.04%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+24  effect_setD3DXEffect                PF:2256 {0.0000 ms/tick 0.00 c/tick} {36.5979 ms/f 18.00 c/f} 2.0332174 ms/call [0.3896, 0.0000] guardTime 0.0 ms 0.00% (0.17%) MEM/f alloc 72832.0 (67784.0), calls 1152.0 (1025.0) 
+25  effect_enumerateTechniques          PF:2250 {0.0000 ms/tick 0.00 c/tick} {35.5451 ms/f 18.00 c/f} 1.9747287 ms/call [0.3347, 0.0000] guardTime 0.0 ms 0.00% (0.16%) MEM/f alloc 16888.0 (11840.0), calls 250.0 (123.0) 
+26  Win32FileSystem_addListener         PF:4 {0.0000 ms/tick 0.00 c/tick} {1.7600 ms/f 61.00 c/f} 0.0288530 ms/call [0.0142, 0.0000] guardTime 0.0 ms 0.00% (0.01%) MEM/f alloc 3904.0 (0.0), calls 61.0 (0.0) 
+27  effect_getParameterBySemanticAddRef PF:5 {0.0000 ms/tick 0.00 c/tick} {1.1964 ms/f 180.00 c/f} 0.0066465 ms/call [0.0011, 0.0014] guardTime 0.0 ms 0.00% (0.01%) MEM/f alloc 6272.0 (6272.0), calls 49.0 (49.0) 
+28  effect_getParameterBySemantic       PF:3 {0.0000 ms/tick 0.00 c/tick} {1.0723 ms/f 193.00 c/f} 0.0055559 ms/call [0.0004, 0.0007] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 1928.0 (1928.0), calls 47.0 (47.0) 
+29  effect_setTechniqueByName           PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0070 ms/f 8.00 c/f} 0.0008733 ms/call [0.0004, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+30  NametagManager_ClearAll             PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0123 ms/f 1.00 c/f} 0.0122770 ms/call [0.0123, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 4160.0 (4160.0), calls 130.0 (130.0) 
+31  effect_queryTechniqueByName         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0027 ms/f 1.00 c/f} 0.0027147 ms/call [0.0027, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 2172.0 (2172.0), calls 1.0 (1.0) 
+32  BF2Render_InitRenderView            PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0016 ms/f 1.00 c/f} 0.0015734 ms/call [0.0016, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+33  BF2Render_InitRenderPath            PF:6521 {0.0000 ms/tick 0.00 c/tick} {34.0252 ms/f 1.00 c/f} 34.0252151 ms/call [34.0252, 0.0000] guardTime 0.0 ms 0.00% (0.16%) MEM/f alloc 74760.0 (46112.0), calls 254.0 (174.0) 
+34  statemanager_applyRTAndDepth        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0085 ms/f 7.00 c/f} 0.0012190 ms/call [0.0004, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+35  NametagRenderer_pathInit            PF:2464 {0.0000 ms/tick 0.00 c/tick} {29.7461 ms/f 3.00 c/f} 9.9153700 ms/call [0.0979, 0.0000] guardTime 0.0 ms 0.00% (0.14%) MEM/f alloc 55411.0 (30792.0), calls 191.0 (130.0) 
+36  BF2Render_InitConsoleOverlay        PF:17 {0.0000 ms/tick 0.00 c/tick} {0.8747 ms/f 1.00 c/f} 0.8746682 ms/call [0.8747, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 15065.0 (12428.0), calls 19.0 (13.0) 
+37  BF2Render_CreateObjectDrawer        PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1109 ms/f 1.00 c/f} 0.1108928 ms/call [0.1109, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 288.0 (288.0), calls 4.0 (4.0) 
+38  BF2Render_Optimize                  PF:0 {0.0000 ms/tick 0.00 c/tick} {0.1047 ms/f 1.00 c/f} 0.1047287 ms/call [0.1047, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 792.0 (792.0), calls 4.0 (4.0) 
+39  BF2Render_DeleteOptimizers          PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0055 ms/f 1.00 c/f} 0.0055050 ms/call [0.0055, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (-792.0), calls 0.0 (-4.0) 
+40  statemanager_apply                  PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0050 ms/f 1.00 c/f} 0.0050324 ms/call [0.0050, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 2172.0 (2172.0), calls 1.0 (1.0) 
+41  initConsole                         PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0005 ms/f 1.00 c/f} 0.0005353 ms/call [0.0005, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+42  initHudManager                      PF:5806 {0.0000 ms/tick 0.00 c/tick} {7758.5552 ms/f 1.00 c/f} 7758.5551758 ms/call [1529.5370, 0.0000] guardTime 0.0 ms 0.00% (35.42%) MEM/f alloc 5004467.0 (2186221.0), calls 49119.0 (46503.0) 
+43  Win32FileSystem_getFileInfo         PF:0 {0.0000 ms/tick 0.00 c/tick} {2.8062 ms/f 51.00 c/f} 0.0550229 ms/call [0.0295, 0.0850] guardTime 0.0 ms 0.00% (0.01%) MEM/f alloc 7064.0 (4344.0), calls 70.0 (2.0) 
+44  Win32FileSystem_write               PF:0 {0.0000 ms/tick 0.00 c/tick} {2.4417 ms/f 34.00 c/f} 0.0718147 ms/call [0.0055, 0.0074] guardTime 0.0 ms 0.00% (0.01%) MEM/f alloc 206060.0 (0.0), calls 34.0 (0.0) 
+45  SafeDisc_Decode                     PF:9 {0.0000 ms/tick 0.00 c/tick} {0.1691 ms/f 408.00 c/f} 0.0004145 ms/call [0.0003, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+46  SafeDisc_Encode                     PF:0 {0.0000 ms/tick 0.00 c/tick} {0.0410 ms/f 108.00 c/f} 0.0003798 ms/call [0.0003, 0.0005] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 0.0 (0.0), calls 0.0 (0.0) 
+47  initNetwork                         PF:3 {0.0000 ms/tick 0.00 c/tick} {0.1445 ms/f 1.00 c/f} 0.1445372 ms/call [0.1445, 0.0000] guardTime 0.0 ms 0.00% (0.00%) MEM/f alloc 16884.0 (16884.0), calls 11.0 (11.0) 
+
+Process and Threads
+Process                    0: userTime/f = 2765.00ms [2765.00, 2765.00], kernelTime/f = 1140.00ms  [1140.00, 1140.00]
+MainThread                4640: userTime/f = 1796.00ms [1796.00, 1796.00], kernelTime/f = 1109.00ms  [1109.00, 1109.00]
